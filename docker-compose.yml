@@ -43,9 +43,6 @@ x-init-ollama: &init-ollama
   entrypoint: /bin/sh
   environment:
     - OLLAMA_HOST=ollama:11434
-  command:
-    - "-c"
-    - "sleep 3; ollama pull llama3.2"
 
 services:
   postgres:
@@ -96,6 +93,7 @@ services:
       - n8n_storage:/home/node/.n8n
       - ./n8n/demo-data:/demo-data
       - ./shared:/data/shared
+      - ./shared:/home/node/.n8n-files
     depends_on:
       postgres:
         condition: service_healthy
