@@ -43,6 +43,10 @@ x-init-ollama: &init-ollama
   entrypoint: /bin/sh
   environment:
     - OLLAMA_HOST=ollama:11434
+  command:
+    - "-c"
+    - "sleep 3; ollama pull qwen3-embedding:0.6b"
+
 
 services:
   postgres:
