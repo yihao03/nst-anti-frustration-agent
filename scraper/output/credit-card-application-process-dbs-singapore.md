@@ -1,7 +1,7 @@
 ---
 title: "Credit Card Application Process | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-application-new-card.html"
-scraped_date: "2026-04-05 23:31:29"
+scraped_date: "2026-04-06 00:06:56"
 depth: 2
 ---
 

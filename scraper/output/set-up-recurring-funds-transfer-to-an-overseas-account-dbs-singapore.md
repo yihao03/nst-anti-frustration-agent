@@ -1,7 +1,7 @@
 ---
 title: "Set up Recurring Funds Transfer to an Overseas Account | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-recurring-funds-transfer-to-overseas-account.html"
-scraped_date: "2026-04-05 23:29:49"
+scraped_date: "2026-04-06 00:05:21"
 depth: 2
 ---
 

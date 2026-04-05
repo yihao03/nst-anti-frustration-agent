@@ -1,7 +1,7 @@
 ---
 title: "Close DBS PayLah! Wallet | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-close-paylah.html"
-scraped_date: "2026-04-05 23:30:35"
+scraped_date: "2026-04-06 00:06:06"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Unlink your financial data via SGFinDex | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-sgfindex-unlink-financial-institution.html"
-scraped_date: "2026-04-05 23:29:02"
+scraped_date: "2026-04-06 00:04:40"
 depth: 2
 ---
 

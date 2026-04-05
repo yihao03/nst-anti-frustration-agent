@@ -1,7 +1,7 @@
 ---
 title: "Add Cheque or Demand Draft Recipient | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-cheque-purchase-ibcheque-add-recipient.html"
-scraped_date: "2026-04-05 23:28:31"
+scraped_date: "2026-04-06 00:04:12"
 depth: 2
 ---
 

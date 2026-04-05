@@ -1,7 +1,7 @@
 ---
 title: "Make Bill Payment | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payment-bill-payment.html"
-scraped_date: "2026-04-05 23:30:36"
+scraped_date: "2026-04-06 00:06:08"
 depth: 2
 ---
 

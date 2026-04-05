@@ -1,7 +1,7 @@
 ---
 title: "Transact & Withdraw in Foreign Currency Overseas | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-withdraw-cash-overseas.html"
-scraped_date: "2026-04-05 23:28:04"
+scraped_date: "2026-04-06 00:03:52"
 depth: 2
 ---
 

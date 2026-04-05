@@ -1,7 +1,7 @@
 ---
 title: "Set up your Digital Token"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token.html?pid=sg-dbs-help-support-home-useful-guides-cardtile"
-scraped_date: "2026-04-05 23:27:00"
+scraped_date: "2026-04-06 00:03:02"
 depth: 1
 ---
 

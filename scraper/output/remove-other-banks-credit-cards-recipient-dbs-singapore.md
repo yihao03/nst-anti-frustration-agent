@@ -1,7 +1,7 @@
 ---
 title: "Remove Other Bank's Credit Cards Recipient | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payment-remove-other-bank-credit-cards-recipient.html"
-scraped_date: "2026-04-05 23:30:44"
+scraped_date: "2026-04-06 00:06:16"
 depth: 2
 ---
 

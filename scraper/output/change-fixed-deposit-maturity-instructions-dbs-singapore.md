@@ -1,7 +1,7 @@
 ---
 title: "Change Fixed Deposit Maturity Instructions | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-maturity-instructions.html"
-scraped_date: "2026-04-05 23:29:10"
+scraped_date: "2026-04-06 00:04:48"
 depth: 2
 ---
 

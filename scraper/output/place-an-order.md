@@ -1,7 +1,7 @@
 ---
 title: "Place an order"
 source_url: "https://www.dbs.com.sg/personal/support/guide-online-equity-trading.html?pid=sg-dbs-help-support-home-useful-guides-cardtile"
-scraped_date: "2026-04-05 23:26:59"
+scraped_date: "2026-04-06 00:03:00"
 depth: 1
 ---
 

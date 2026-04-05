@@ -1,7 +1,7 @@
 ---
 title: "Remove Overseas Funds Transfer Recipient | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-remittance-remove-recipient.html"
-scraped_date: "2026-04-05 23:29:35"
+scraped_date: "2026-04-06 00:05:10"
 depth: 2
 ---
 

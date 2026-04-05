@@ -1,7 +1,7 @@
 ---
 title: "Change Overseas Funds Transfer Limit | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-change-funds-transfer-limit.html"
-scraped_date: "2026-04-05 23:29:47"
+scraped_date: "2026-04-06 00:05:20"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Local Cash Withdrawal | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-withdraw-cash-local.html"
-scraped_date: "2026-04-05 23:27:46"
+scraped_date: "2026-04-06 00:03:34"
 depth: 2
 ---
 

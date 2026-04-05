@@ -1,7 +1,7 @@
 ---
 title: "Retrieval of Printed Account Statements | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-statements-retrieve-printed-statements.html?pid=sg-dbs-help-support-home-featured-article-cardtile"
-scraped_date: "2026-04-05 23:26:29"
+scraped_date: "2026-04-06 00:02:31"
 depth: 1
 ---
 

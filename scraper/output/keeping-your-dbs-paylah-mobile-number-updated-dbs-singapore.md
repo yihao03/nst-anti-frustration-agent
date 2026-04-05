@@ -1,7 +1,7 @@
 ---
 title: "Keeping your DBS PayLah! Mobile Number Updated | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-mobile-number.html"
-scraped_date: "2026-04-05 23:30:32"
+scraped_date: "2026-04-06 00:06:03"
 depth: 2
 ---
 

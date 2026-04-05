@@ -1,7 +1,7 @@
 ---
 title: "Purchase Cashier's Order | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-cashiers-order.html?pid=sg-dbs-help-support-home-featured-article-cardtile"
-scraped_date: "2026-04-05 23:26:33"
+scraped_date: "2026-04-06 00:02:34"
 depth: 1
 ---
 

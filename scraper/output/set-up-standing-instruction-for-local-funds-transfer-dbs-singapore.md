@@ -1,7 +1,7 @@
 ---
 title: "Set up Standing Instruction for Local Funds Transfer | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-setup-recurring-funds-transfer.html"
-scraped_date: "2026-04-05 23:29:19"
+scraped_date: "2026-04-06 00:04:57"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Receive Funds from Others | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-receive-funds-from-others.html"
-scraped_date: "2026-04-05 23:29:29"
+scraped_date: "2026-04-06 00:05:07"
 depth: 2
 ---
 

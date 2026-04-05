@@ -1,7 +1,7 @@
 ---
 title: "Remove PayNow Recipient | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-remove-paynow-recipient.html"
-scraped_date: "2026-04-05 23:30:05"
+scraped_date: "2026-04-06 00:05:36"
 depth: 2
 ---
 

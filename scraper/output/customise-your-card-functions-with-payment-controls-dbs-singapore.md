@@ -1,7 +1,7 @@
 ---
 title: "Customise your Card Functions with Payment Controls | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-customise-card-functions.html"
-scraped_date: "2026-04-05 23:31:10"
+scraped_date: "2026-04-06 00:06:41"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Top Up Mobile Prepaid Number | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payment-top-up-mobile-prepaid.html"
-scraped_date: "2026-04-05 23:31:00"
+scraped_date: "2026-04-06 00:06:32"
 depth: 2
 ---
 

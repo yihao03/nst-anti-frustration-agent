@@ -1,7 +1,7 @@
 ---
 title: "Purchase a Demand Draft | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-demand-draft.html"
-scraped_date: "2026-04-05 23:28:28"
+scraped_date: "2026-04-06 00:04:09"
 depth: 2
 ---
 

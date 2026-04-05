@@ -1,7 +1,7 @@
 ---
 title: "Terminate Standing Instruction for Local Funds Transfer | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-local-funds-terminate-recurring-funds-transfer.html"
-scraped_date: "2026-04-05 23:29:23"
+scraped_date: "2026-04-06 00:05:01"
 depth: 2
 ---
 

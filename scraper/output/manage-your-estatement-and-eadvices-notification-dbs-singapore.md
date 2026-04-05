@@ -1,7 +1,7 @@
 ---
 title: "Manage your eStatement and eAdvices Notification | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-statements-manage-eadvicesestatements-notification.html"
-scraped_date: "2026-04-05 23:31:24"
+scraped_date: "2026-04-06 00:06:52"
 depth: 2
 ---
 

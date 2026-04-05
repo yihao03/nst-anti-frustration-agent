@@ -1,7 +1,7 @@
 ---
 title: "View Active GIRO Arrangements | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payment-view-active-giro-arrangements.html"
-scraped_date: "2026-04-05 23:30:54"
+scraped_date: "2026-04-06 00:06:25"
 depth: 2
 ---
 

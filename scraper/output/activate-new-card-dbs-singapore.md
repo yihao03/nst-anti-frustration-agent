@@ -1,7 +1,7 @@
 ---
 title: "Activate New Card | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-activate-new-card.html"
-scraped_date: "2026-04-05 23:27:59"
+scraped_date: "2026-04-06 00:03:47"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Cash out an EDP/EDP+ | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payment-cashout-edp.html"
-scraped_date: "2026-04-05 23:31:05"
+scraped_date: "2026-04-06 00:06:36"
 depth: 2
 ---
 

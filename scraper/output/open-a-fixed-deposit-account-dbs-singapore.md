@@ -1,7 +1,7 @@
 ---
 title: "Open a Fixed Deposit Account | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-opening.html"
-scraped_date: "2026-04-05 23:29:05"
+scraped_date: "2026-04-06 00:04:43"
 depth: 2
 ---
 

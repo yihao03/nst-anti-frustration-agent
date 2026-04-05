@@ -1,7 +1,7 @@
 ---
 title: "Waive Credit Card / Cashline Fees & Charges | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-waive-credit-card-cashline-charges.html?pid=sg-dbs-help-support-home-featured-article-cardtile&trigger=8ecb9d35-d790-456f-b16c-c479309c2816"
-scraped_date: "2026-04-05 23:26:26"
+scraped_date: "2026-04-06 00:02:28"
 depth: 1
 ---
 

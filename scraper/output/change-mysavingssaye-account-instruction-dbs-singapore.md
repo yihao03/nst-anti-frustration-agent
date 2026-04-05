@@ -1,7 +1,7 @@
 ---
 title: "Change MySavings/SAYE Account Instruction | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-account-change-msa-contribution.html"
-scraped_date: "2026-04-05 23:27:28"
+scraped_date: "2026-04-06 00:03:20"
 depth: 2
 ---
 

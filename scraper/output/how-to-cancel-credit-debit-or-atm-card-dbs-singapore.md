@@ -1,7 +1,7 @@
 ---
 title: "How to Cancel Credit, Debit or ATM Card | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-issues-terminate-card.html"
-scraped_date: "2026-04-05 23:28:18"
+scraped_date: "2026-04-06 00:04:01"
 depth: 2
 ---
 

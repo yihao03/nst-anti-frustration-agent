@@ -1,7 +1,7 @@
 ---
 title: "Authentication in Phone Banking | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-phone-banking-authentication.html"
-scraped_date: "2026-04-05 23:27:54"
+scraped_date: "2026-04-06 00:03:42"
 depth: 2
 ---
 

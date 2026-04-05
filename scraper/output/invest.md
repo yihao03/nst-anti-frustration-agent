@@ -1,7 +1,7 @@
 ---
 title: "Invest"
 source_url: "https://www.dbs.com.sg/personal/support/investment-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink"
-scraped_date: "2026-04-05 23:26:18"
+scraped_date: "2026-04-06 00:02:20"
 depth: 1
 ---
 

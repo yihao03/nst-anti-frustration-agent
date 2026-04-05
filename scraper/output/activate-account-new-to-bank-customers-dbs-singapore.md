@@ -1,7 +1,7 @@
 ---
 title: "Activate Account (New to Bank Customers) | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-account-activate-ntb.html"
-scraped_date: "2026-04-05 23:27:27"
+scraped_date: "2026-04-06 00:03:18"
 depth: 2
 ---
 

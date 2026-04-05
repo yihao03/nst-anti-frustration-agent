@@ -1,7 +1,7 @@
 ---
 title: "Reasons for Delayed Overseas Funds Transfer | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-delayed.html"
-scraped_date: "2026-04-05 23:29:44"
+scraped_date: "2026-04-06 00:05:17"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Open a New Bank Account with DBS/POSB | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-account-new-opening.html"
-scraped_date: "2026-04-05 23:27:20"
+scraped_date: "2026-04-06 00:03:11"
 depth: 2
 ---
 

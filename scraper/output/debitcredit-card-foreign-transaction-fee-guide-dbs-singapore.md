@@ -1,7 +1,7 @@
 ---
 title: "Debit/Credit Card Foreign Transaction Fee Guide | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-charges-and-fees-overseas-transaction-fees.html"
-scraped_date: "2026-04-05 23:28:15"
+scraped_date: "2026-04-06 00:03:58"
 depth: 2
 ---
 

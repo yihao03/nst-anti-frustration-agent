@@ -1,7 +1,7 @@
 ---
 title: "Manage Accounts Linked to your Card | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-application-link-card-to-deposit-account.html"
-scraped_date: "2026-04-05 23:28:13"
+scraped_date: "2026-04-06 00:03:57"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Deposit/Issue a Cheque"
 source_url: "https://www.dbs.com.sg/personal/support/bank-cheque-depositing-cheques.html"
-scraped_date: "2026-04-05 23:28:20"
+scraped_date: "2026-04-06 00:04:03"
 depth: 2
 ---
 

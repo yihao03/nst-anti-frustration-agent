@@ -1,7 +1,7 @@
 ---
 title: "Add Overseas Funds Transfer Recipient | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-remittance-add-recipient.html"
-scraped_date: "2026-04-05 23:29:34"
+scraped_date: "2026-04-06 00:05:09"
 depth: 2
 ---
 

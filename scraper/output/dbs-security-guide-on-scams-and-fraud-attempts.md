@@ -1,7 +1,7 @@
 ---
 title: "DBS Security Guide on Scams and Fraud Attempts"
 source_url: "https://www.dbs.com.sg/personal/support/guide-online-security.html?pid=sg-dbs-help-support-home-useful-guides-cardtile"
-scraped_date: "2026-04-05 23:26:50"
+scraped_date: "2026-04-06 00:02:52"
 depth: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Connect all yourfinances with ease"
 source_url: "https://www.dbs.com.sg/personal/deposits/digital-services/sgfindex"
-scraped_date: "2026-04-05 23:28:58"
+scraped_date: "2026-04-06 00:04:36"
 depth: 2
 ---
 

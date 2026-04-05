@@ -1,7 +1,7 @@
 ---
 title: "Deposit Cheque Wrongly | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-cheque-wrongly-deposited-cheques.html"
-scraped_date: "2026-04-05 23:28:34"
+scraped_date: "2026-04-06 00:04:16"
 depth: 2
 ---
 

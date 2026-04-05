@@ -1,7 +1,7 @@
 ---
 title: "CASA | EDD Form"
 source_url: "https://www.dbs.com.sg/personal/dbs-forms/deposit/edd.page?pid=sg-dbs-help-support-banking-product-edd"
-scraped_date: "2026-04-05 23:27:25"
+scraped_date: "2026-04-06 00:03:17"
 depth: 2
 ---
 

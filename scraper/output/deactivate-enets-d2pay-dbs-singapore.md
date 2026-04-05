@@ -1,7 +1,7 @@
 ---
 title: "Deactivate eNets (D2Pay) | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-deactivation.html"
-scraped_date: "2026-04-05 23:30:51"
+scraped_date: "2026-04-06 00:06:22"
 depth: 2
 ---
 

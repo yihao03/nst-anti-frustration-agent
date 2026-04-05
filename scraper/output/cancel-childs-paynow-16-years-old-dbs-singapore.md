@@ -1,7 +1,7 @@
 ---
 title: "Cancel Child's PayNow (<16 years old) | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-deregister-child-profile.html"
-scraped_date: "2026-04-05 23:30:08"
+scraped_date: "2026-04-06 00:05:39"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Apply for a DBS Vickers Online Trading Account"
 source_url: "https://www.dbs.com.sg/personal/support/guide-vickers.html?pid=sg-dbs-help-support-home-useful-guides-cardtile"
-scraped_date: "2026-04-05 23:27:02"
+scraped_date: "2026-04-06 00:03:03"
 depth: 1
 ---
 

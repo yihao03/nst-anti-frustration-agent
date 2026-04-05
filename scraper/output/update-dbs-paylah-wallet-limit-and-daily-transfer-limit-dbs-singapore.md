@@ -1,7 +1,7 @@
 ---
 title: "Update DBS PayLah! Wallet Limit and Daily Transfer Limit | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-wallet-limit.html"
-scraped_date: "2026-04-05 23:30:30"
+scraped_date: "2026-04-06 00:06:01"
 depth: 2
 ---
 

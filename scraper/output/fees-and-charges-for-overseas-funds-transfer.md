@@ -1,7 +1,7 @@
 ---
 title: "Fees and Charges for Overseas Funds Transfer"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-fees-and-charges.html"
-scraped_date: "2026-04-05 23:29:40"
+scraped_date: "2026-04-06 00:05:15"
 depth: 2
 ---
 

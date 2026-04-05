@@ -1,7 +1,7 @@
 ---
 title: "Using your DBS Physical Token | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ibanking-using-ib-secure-device.html"
-scraped_date: "2026-04-05 23:28:52"
+scraped_date: "2026-04-06 00:04:30"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Notes Exchange | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-notes-exchange.html"
-scraped_date: "2026-04-05 23:27:51"
+scraped_date: "2026-04-06 00:03:39"
 depth: 2
 ---
 

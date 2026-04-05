@@ -1,7 +1,7 @@
 ---
 title: "Returned/Bounced Cheque | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-cheque-returned-cheques-reasons.html"
-scraped_date: "2026-04-05 23:28:24"
+scraped_date: "2026-04-06 00:04:08"
 depth: 2
 ---
 

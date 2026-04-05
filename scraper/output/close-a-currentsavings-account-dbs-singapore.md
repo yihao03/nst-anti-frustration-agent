@@ -1,7 +1,7 @@
 ---
 title: "Close a Current/Savings Account | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-account-closure.html"
-scraped_date: "2026-04-05 23:27:44"
+scraped_date: "2026-04-06 00:03:33"
 depth: 2
 ---
 

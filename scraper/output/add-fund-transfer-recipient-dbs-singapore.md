@@ -1,7 +1,7 @@
 ---
 title: "Add Fund Transfer Recipient | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-add-bank-recipient.html"
-scraped_date: "2026-04-05 23:29:13"
+scraped_date: "2026-04-06 00:04:51"
 depth: 2
 ---
 

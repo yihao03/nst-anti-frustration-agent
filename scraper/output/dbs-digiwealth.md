@@ -1,7 +1,7 @@
 ---
 title: "DBS digiWealth"
 source_url: "https://www.dbs.com.sg/personal/digiwealth/why-digiwealth.page"
-scraped_date: "2026-04-05 23:28:57"
+scraped_date: "2026-04-06 00:04:35"
 depth: 2
 ---
 

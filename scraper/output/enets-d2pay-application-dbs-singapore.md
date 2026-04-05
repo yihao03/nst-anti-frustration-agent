@@ -1,7 +1,7 @@
 ---
 title: "eNets (D2Pay) Application | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-application.html"
-scraped_date: "2026-04-05 23:30:46"
+scraped_date: "2026-04-06 00:06:17"
 depth: 2
 ---
 

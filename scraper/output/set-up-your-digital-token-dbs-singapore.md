@@ -1,7 +1,7 @@
 ---
 title: "Set up your Digital Token | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token-setup.html"
-scraped_date: "2026-04-05 23:28:47"
+scraped_date: "2026-04-06 00:04:25"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Keeping Your Card Safe"
 source_url: "https://www.dbs.com.sg/personal/support/guide-card-security.html?pid=sg-dbs-help-support-home-useful-guides-cardtile"
-scraped_date: "2026-04-05 23:27:03"
+scraped_date: "2026-04-06 00:03:05"
 depth: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Apply for a New Card"
 source_url: "https://www.dbs.com.sg/personal/support/guide-shopping.html?pid=sg-dbs-help-support-home-useful-guides-cardtile"
-scraped_date: "2026-04-05 23:27:05"
+scraped_date: "2026-04-06 00:03:06"
 depth: 1
 ---
 

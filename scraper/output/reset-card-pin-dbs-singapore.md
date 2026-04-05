@@ -1,7 +1,7 @@
 ---
 title: "Reset Card PIN | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-issues-forget-pin.html"
-scraped_date: "2026-04-05 23:28:10"
+scraped_date: "2026-04-06 00:03:53"
 depth: 2
 ---
 

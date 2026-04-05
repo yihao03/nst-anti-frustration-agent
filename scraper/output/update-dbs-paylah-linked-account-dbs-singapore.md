@@ -1,7 +1,7 @@
 ---
 title: "Update DBS PayLah! Linked Account | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-account.html"
-scraped_date: "2026-04-05 23:30:28"
+scraped_date: "2026-04-06 00:06:00"
 depth: 2
 ---
 

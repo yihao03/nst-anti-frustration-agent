@@ -1,7 +1,7 @@
 ---
 title: "International Money Transfer Limits & Timing | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-service-standards.html?pid=sg-dbs-help-support-home-featured-article-cardtile"
-scraped_date: "2026-04-05 23:26:49"
+scraped_date: "2026-04-06 00:02:50"
 depth: 1
 ---
 

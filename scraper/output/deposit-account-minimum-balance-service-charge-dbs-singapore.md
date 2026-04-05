@@ -1,7 +1,7 @@
 ---
 title: "Deposit Account Minimum Balance Service Charge | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-fall-below-fee.html"
-scraped_date: "2026-04-05 23:27:38"
+scraped_date: "2026-04-06 00:03:26"
 depth: 2
 ---
 

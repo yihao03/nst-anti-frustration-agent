@@ -1,7 +1,7 @@
 ---
 title: "DBS d2Pay (eNets)"
 source_url: "https://www.dbs.com.sg/personal/forms/paymentstransfers/d2payindividual/Pages/default.page"
-scraped_date: "2026-04-05 23:30:49"
+scraped_date: "2026-04-06 00:06:21"
 depth: 2
 ---
 

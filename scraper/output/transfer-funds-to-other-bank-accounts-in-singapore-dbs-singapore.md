@@ -1,7 +1,7 @@
 ---
 title: "Transfer Funds to Other Bank Accounts in Singapore | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-transfer-to-other-bank-accounts.html"
-scraped_date: "2026-04-05 23:29:11"
+scraped_date: "2026-04-06 00:04:49"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Country Specific Information for DBS Remit | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-countries.html"
-scraped_date: "2026-04-05 23:29:39"
+scraped_date: "2026-04-06 00:05:13"
 depth: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Update ATM/Debit Card Limits | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-change-atm-card-limit.html"
-scraped_date: "2026-04-05 23:28:12"
+scraped_date: "2026-04-06 00:03:55"
 depth: 2
 ---
 

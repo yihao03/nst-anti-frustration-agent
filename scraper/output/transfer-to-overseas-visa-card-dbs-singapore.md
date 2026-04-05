@@ -1,7 +1,7 @@
 ---
 title: "Transfer to Overseas Visa Card | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-funds-transfer-to-overseas-credit-card.html"
-scraped_date: "2026-04-05 23:29:53"
+scraped_date: "2026-04-06 00:05:26"
 depth: 2
 ---
 

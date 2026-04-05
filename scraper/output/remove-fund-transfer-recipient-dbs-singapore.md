@@ -1,7 +1,7 @@
 ---
 title: "Remove Fund Transfer Recipient | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-remove-bank-recipient.html"
-scraped_date: "2026-04-05 23:29:15"
+scraped_date: "2026-04-06 00:04:53"
 depth: 2
 ---
 

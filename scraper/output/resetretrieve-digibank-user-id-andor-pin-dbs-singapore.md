@@ -1,7 +1,7 @@
 ---
 title: "Reset/Retrieve digibank User ID and/or PIN | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-digibank-reset-uid-pin.html"
-scraped_date: "2026-04-05 23:28:50"
+scraped_date: "2026-04-06 00:04:28"
 depth: 2
 ---
 

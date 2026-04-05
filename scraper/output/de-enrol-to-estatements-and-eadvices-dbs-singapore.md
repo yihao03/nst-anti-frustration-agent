@@ -1,7 +1,7 @@
 ---
 title: "De-enrol to eStatements and eAdvices | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-statements-estatements-deenrol.html"
-scraped_date: "2026-04-05 23:31:26"
+scraped_date: "2026-04-06 00:06:54"
 depth: 2
 ---
 

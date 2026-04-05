@@ -1,7 +1,7 @@
 ---
 title: "Change Local Funds Transfer Limits | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-change-funds-transfer-limit.html"
-scraped_date: "2026-04-05 23:29:24"
+scraped_date: "2026-04-06 00:05:02"
 depth: 2
 ---
 

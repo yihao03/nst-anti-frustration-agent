@@ -1,7 +1,7 @@
 ---
 title: "Your Guide to Submit Card Transaction Dispute | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/general-incorrect-transaction.html?pid=sg-dbs-help-support-home-featured-article-cardtile"
-scraped_date: "2026-04-05 23:26:21"
+scraped_date: "2026-04-06 00:02:23"
 depth: 1
 ---
 

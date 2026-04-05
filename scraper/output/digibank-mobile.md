@@ -1,7 +1,7 @@
 ---
 title: "digibank mobile"
 source_url: "https://www.dbs.com.sg/personal/support/guide-bill-payment.html?pid=sg-dbs-help-support-home-useful-guides-cardtile"
-scraped_date: "2026-04-05 23:26:57"
+scraped_date: "2026-04-06 00:02:58"
 depth: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Replace Credit/Debit/ATM Card | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/card-issues-card-replacement.html?pid=sg-dbs-help-support-home-featured-article-cardtile"
-scraped_date: "2026-04-05 23:26:28"
+scraped_date: "2026-04-06 00:02:29"
 depth: 1
 ---
 

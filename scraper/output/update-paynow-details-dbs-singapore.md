@@ -1,7 +1,7 @@
 ---
 title: "Update PayNow Details | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-amend-profile.html"
-scraped_date: "2026-04-05 23:30:00"
+scraped_date: "2026-04-06 00:05:31"
 depth: 2
 ---
 

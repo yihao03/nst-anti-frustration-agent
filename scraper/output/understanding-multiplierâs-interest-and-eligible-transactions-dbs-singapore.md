@@ -1,7 +1,7 @@
 ---
 title: "Understanding Multiplierâs Interest and Eligible Transactions | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-multiplier-eligible-transactions.html"
-scraped_date: "2026-04-05 23:29:03"
+scraped_date: "2026-04-06 00:04:41"
 depth: 2
 ---
 

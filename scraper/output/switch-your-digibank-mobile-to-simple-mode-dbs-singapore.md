@@ -1,7 +1,7 @@
 ---
 title: "Switch your digibank mobile to Simple Mode | DBS Singapore"
 source_url: "https://www.dbs.com.sg/personal/support/bank-switch-simple-full-mode.html"
-scraped_date: "2026-04-05 23:28:55"
+scraped_date: "2026-04-06 00:04:33"
 depth: 2
 ---
 
