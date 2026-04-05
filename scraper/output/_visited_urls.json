@@ -1,0 +1,1602 @@
+{
+  "500401ec185e": {
+    "url": "https://www.dbs.com.sg/personal/support/home.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/home.html",
+    "depth": 0,
+    "title": "Featured",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/featured.md"
+  },
+  "b0c086eea8b4": {
+    "url": "https://www.dbs.com.sg/personal/support/banking-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "normalized": "https://www.dbs.com.sg/personal/support/banking-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "depth": 1,
+    "title": "Bank",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/bank.md"
+  },
+  "fae18faa0590": {
+    "url": "https://www.dbs.com.sg/personal/support/cards-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "normalized": "https://www.dbs.com.sg/personal/support/cards-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "depth": 1,
+    "title": "Credit Card",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/credit-card.md"
+  },
+  "54451e295334": {
+    "url": "https://www.dbs.com.sg/personal/support/general-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "normalized": "https://www.dbs.com.sg/personal/support/general-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "depth": 1,
+    "title": "General Help",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/general-help.md"
+  },
+  "cd685ee91233": {
+    "url": "https://www.dbs.com.sg/personal/support/loans-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "normalized": "https://www.dbs.com.sg/personal/support/loans-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "depth": 1,
+    "title": "Borrow",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/borrow.md"
+  },
+  "7aa36b17b80b": {
+    "url": "https://www.dbs.com.sg/personal/support/investment-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "normalized": "https://www.dbs.com.sg/personal/support/investment-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "depth": 1,
+    "title": "Invest",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/invest.md"
+  },
+  "125d826ae3e9": {
+    "url": "https://www.dbs.com.sg/personal/support/insurance-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "normalized": "https://www.dbs.com.sg/personal/support/insurance-product.html?pid=sg-dbs-help-support-home-utility-category-iconlink",
+    "depth": 1,
+    "title": "Insure",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/insure.md"
+  },
+  "fcda24f532cd": {
+    "url": "https://www.dbs.com.sg/personal/support/general-incorrect-transaction.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/general-incorrect-transaction.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Your Guide to Submit Card Transaction Dispute | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/your-guide-to-submit-card-transaction-dispute-dbs-singapore.md"
+  },
+  "c73c49744210": {
+    "url": "https://www.dbs.com.sg/personal/support/general-digibank-security-malware-jailbroken-device.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/general-digibank-security-malware-jailbroken-device.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "DBS/POSB Anti-Malware Security Features | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbsposb-anti-malware-security-features-dbs-singapore.md"
+  },
+  "86317d4beb0b": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-security-on-scams-and-fraud.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Suspect you\u00e2\u0080\u0099re a victim of scam? | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/suspect-you\u00e2re-a-victim-of-scam-dbs-singapore.md"
+  },
+  "a6c61c694e39": {
+    "url": "https://www.dbs.com.sg/personal/support/card-waive-credit-card-cashline-charges.html?pid=sg-dbs-help-support-home-featured-article-cardtile&trigger=8ecb9d35-d790-456f-b16c-c479309c2816",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-waive-credit-card-cashline-charges.html?pid=sg-dbs-help-support-home-featured-article-cardtile&trigger=8ecb9d35-d790-456f-b16c-c479309c2816",
+    "depth": 1,
+    "title": "Waive Credit Card / Cashline Fees & Charges | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/waive-credit-card-cashline-fees-charges-dbs-singapore.md"
+  },
+  "8fef3836f376": {
+    "url": "https://www.dbs.com.sg/personal/support/card-issues-card-replacement.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-issues-card-replacement.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Replace Credit/Debit/ATM Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/replace-creditdebitatm-card-dbs-singapore.md"
+  },
+  "5e40ee110602": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-retrieve-printed-statements.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-retrieve-printed-statements.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Retrieval of Printed Account Statements | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/retrieval-of-printed-account-statements-dbs-singapore.md"
+  },
+  "2f81d0705427": {
+    "url": "https://www.dbs.com.sg/personal/support/card-transaction-view-transaction-details.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-transaction-view-transaction-details.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Check Credit Card Transaction Details | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-credit-card-transaction-details-dbs-singapore.md"
+  },
+  "43bf0b19012f": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-cashiers-order.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-cashiers-order.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Purchase Cashier's Order | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/purchase-cashiers-order-dbs-singapore.md"
+  },
+  "c93eaeacaf06": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-register-profile.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-register-profile.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Apply for PayNow | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-paynow-dbs-singapore.md"
+  },
+  "3e199ddb9eeb": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-safety-switch.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-safety-switch.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Safety Switch | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/safety-switch-dbs-singapore.md"
+  },
+  "cc39f99b3d4f": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-account-transactions.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-account-transactions.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Check and Share Account Transaction Details | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-and-share-account-transaction-details-dbs-singapore.md"
+  },
+  "7fb130c754f0": {
+    "url": "https://www.dbs.com.sg/personal/support/card-issues-lost-card.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-issues-lost-card.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Lost or Stolen Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/lost-or-stolen-card-dbs-singapore.md"
+  },
+  "1055ad5e3ed8": {
+    "url": "https://www.dbs.com.sg/personal/deposits/bank-with-ease/payment-controls?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/deposits/bank-with-ease/payment-controls?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Stop the phish with DBS Payment Controls",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/stop-the-phish-with-dbs-payment-controls.md"
+  },
+  "4a90af976e1e": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-unable-to-withdraw.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-unable-to-withdraw.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Unable to Withdraw and Transact | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/unable-to-withdraw-and-transact-dbs-singapore.md"
+  },
+  "96924600c93f": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-transaction-codes.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-transaction-codes.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Code/Description not found?Tell Us.",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/codedescription-not-foundtell-us.md"
+  },
+  "da4e0d1b9d1a": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-viewing-estatements.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-viewing-estatements.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "View your eStatements and eAdvices | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/view-your-estatements-and-eadvices-dbs-singapore.md"
+  },
+  "f86b97a28928": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-new-remittance.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-new-remittance.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "Transfer Funds to Overseas Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/transfer-funds-to-overseas-account-dbs-singapore.md"
+  },
+  "af63d69482a0": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-service-standards.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-service-standards.html?pid=sg-dbs-help-support-home-featured-article-cardtile",
+    "depth": 1,
+    "title": "International Money Transfer Limits & Timing | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/international-money-transfer-limits-timing-dbs-singapore.md"
+  },
+  "6fddf2240503": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-online-security.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-online-security.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "DBS Security Guide on Scams and Fraud Attempts",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbs-security-guide-on-scams-and-fraud-attempts.md"
+  },
+  "8ed2c0d78d62": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-remit.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-remit.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Why DBS Remit is better?",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/why-dbs-remit-is-better.md"
+  },
+  "f71ab9e3ffe8": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-card-replacement.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-card-replacement.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Replace a Lost Card",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/replace-a-lost-card.md"
+  },
+  "3613eae758a1": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-ibanking.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-ibanking.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Apply for digibank",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-digibank.md"
+  },
+  "e190b46490bd": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-bill-payment.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-bill-payment.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "digibank mobile",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/digibank-mobile.md"
+  },
+  "c2dad4bb2e67": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-online-equity-trading.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-online-equity-trading.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Place an order",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/place-an-order.md"
+  },
+  "5c4c6262bd98": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Set up your Digital Token",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/set-up-your-digital-token.md"
+  },
+  "484aac1c41cb": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-vickers.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-vickers.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Apply for a DBS Vickers Online Trading Account",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-a-dbs-vickers-online-trading-account.md"
+  },
+  "433762c26add": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-card-security.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-card-security.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Keeping Your Card Safe",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/keeping-your-card-safe.md"
+  },
+  "2ab8eb2b8080": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-shopping.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-shopping.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Apply for a New Card",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-a-new-card.md"
+  },
+  "720a4cf0607c": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-travel.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-travel.html?pid=sg-dbs-help-support-home-useful-guides-cardtile",
+    "depth": 1,
+    "title": "Apply for Temporary Credit Limit Increase",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-temporary-credit-limit-increase.md"
+  },
+  "98f6e14bd393": {
+    "url": "https://www.dbs.com.sg/personal/support/digital-services-main.html?pid=sg-dbs-help-support-home-featured-banner-digital-services-textlink",
+    "normalized": "https://www.dbs.com.sg/personal/support/digital-services-main.html?pid=sg-dbs-help-support-home-featured-banner-digital-services-textlink",
+    "depth": 1,
+    "title": "Digital Services",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/digital-services.md"
+  },
+  "3a9300e37305": {
+    "url": "https://www.dbs.com.sg/personal/support/banking-product.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/banking-product.html",
+    "depth": 2,
+    "title": "Bank",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/bank-1.md"
+  },
+  "9a33a935e1c1": {
+    "url": "https://www.dbs.com.sg/personal/support/cards-product.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/cards-product.html",
+    "depth": 2,
+    "title": "Credit Card",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/credit-card-1.md"
+  },
+  "06f175c7a979": {
+    "url": "https://www.dbs.com.sg/personal/support/general-product.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/general-product.html",
+    "depth": 2,
+    "title": "General Help",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/general-help-1.md"
+  },
+  "965d530f44e4": {
+    "url": "https://www.dbs.com.sg/personal/support/loans-product.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/loans-product.html",
+    "depth": 2,
+    "title": "Borrow",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/borrow-1.md"
+  },
+  "02f70dc4b762": {
+    "url": "https://www.dbs.com.sg/personal/support/investment-product.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/investment-product.html",
+    "depth": 2,
+    "title": "Invest",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/invest-1.md"
+  },
+  "ec9d15d72438": {
+    "url": "https://www.dbs.com.sg/personal/support/insurance-product.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/insurance-product.html",
+    "depth": 2,
+    "title": "Insure",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/insure-1.md"
+  },
+  "3251884af8a9": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-new-opening.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-new-opening.html",
+    "depth": 2,
+    "title": "Open a New Bank Account with DBS/POSB | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/open-a-new-bank-account-with-dbsposb-dbs-singapore.md"
+  },
+  "8e15992ee7e7": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-opening-documents-required.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-opening-documents-required.html",
+    "depth": 2,
+    "title": "Documents Required for Account Opening | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/documents-required-for-account-opening-dbs-singapore.md"
+  },
+  "4e5e3fafd20b": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-application-status.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-application-status.html",
+    "depth": 2,
+    "title": "DBS Account Opening Application Status Check | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbs-account-opening-application-status-check-dbs-singapore.md"
+  },
+  "523a2b8df557": {
+    "url": "https://www.dbs.com.sg/personal/dbs-forms/deposit/edd.page?pid=sg-dbs-help-support-banking-product-edd",
+    "normalized": "https://www.dbs.com.sg/personal/dbs-forms/deposit/edd.page?pid=sg-dbs-help-support-banking-product-edd",
+    "depth": 2,
+    "title": "CASA | EDD Form",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/casa-edd-form.md"
+  },
+  "48fa6ea014e1": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-activate-ntb.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-activate-ntb.html",
+    "depth": 2,
+    "title": "Activate Account (New to Bank Customers) | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/activate-account-new-to-bank-customers-dbs-singapore.md"
+  },
+  "36ddd4640848": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-change-msa-contribution.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-change-msa-contribution.html",
+    "depth": 2,
+    "title": "Change MySavings/SAYE Account Instruction | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-mysavingssaye-account-instruction-dbs-singapore.md"
+  },
+  "8bb2d8ebc728": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-account-transactions.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-account-transactions.html",
+    "depth": 2,
+    "title": "Check and Share Account Transaction Details | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-and-share-account-transaction-details-dbs-singapore-1.md"
+  },
+  "a1ce5598725c": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-transaction-codes.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-transaction-codes.html",
+    "depth": 2,
+    "title": "Code/Description not found?Tell Us.",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/codedescription-not-foundtell-us-1.md"
+  },
+  "f5e7402a95e6": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-view-account-number.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-view-account-number.html",
+    "depth": 2,
+    "title": "Find your Account Number | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/find-your-account-number-dbs-singapore.md"
+  },
+  "a741f36f6e9e": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-peek-balance.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-peek-balance.html",
+    "depth": 2,
+    "title": "Peek Balance | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/peek-balance-dbs-singapore.md"
+  },
+  "bdc0b6cc7f96": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-check-account-balance.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-check-account-balance.html",
+    "depth": 2,
+    "title": "Check Account Balance | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-account-balance-dbs-singapore.md"
+  },
+  "ba44cd7f7722": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-fall-below-fee.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-fall-below-fee.html",
+    "depth": 2,
+    "title": "Deposit Account Minimum Balance Service Charge | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/deposit-account-minimum-balance-service-charge-dbs-singapore.md"
+  },
+  "de5711ec9097": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-view-joint-account-info.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-view-joint-account-info.html",
+    "depth": 2,
+    "title": "View Joint Account Information | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/view-joint-account-information-dbs-singapore.md"
+  },
+  "38a5afe05de3": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-passbook-conversion.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-passbook-conversion.html",
+    "depth": 2,
+    "title": "Convert POSB Passbook Savings Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/convert-posb-passbook-savings-account-dbs-singapore.md"
+  },
+  "cc6aceedb769": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-autosave-conversion.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-autosave-conversion.html",
+    "depth": 2,
+    "title": "Request for DBS Account Conversion | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/request-for-dbs-account-conversion-dbs-singapore.md"
+  },
+  "0d49765788df": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-closure.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-closure.html",
+    "depth": 2,
+    "title": "Close a Current/Savings Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/close-a-currentsavings-account-dbs-singapore.md"
+  },
+  "3d56cedf09b5": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-withdraw-cash-local.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-withdraw-cash-local.html",
+    "depth": 2,
+    "title": "Local Cash Withdrawal | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/local-cash-withdrawal-dbs-singapore.md"
+  },
+  "d8fcf90ed980": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-deposit-cash.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-deposit-cash.html",
+    "depth": 2,
+    "title": "Deposit Cash | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/deposit-cash-dbs-singapore.md"
+  },
+  "3f774870a1c5": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-deposit-coins.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-deposit-coins.html",
+    "depth": 2,
+    "title": "Deposit Coins| DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/deposit-coins-dbs-singapore.md"
+  },
+  "c605a8cc2daa": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-notes-exchange.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-notes-exchange.html",
+    "depth": 2,
+    "title": "Notes Exchange | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/notes-exchange-dbs-singapore.md"
+  },
+  "528a01a42f13": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-exchange-foreign-currencies.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-exchange-foreign-currencies.html",
+    "depth": 2,
+    "title": "Exchange Foreign Currencies using DBS Multi-Currency Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/exchange-foreign-currencies-using-dbs-multi-currency-account-dbs-singapore.md"
+  },
+  "3f8d0ad57b19": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-phone-banking-authentication.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-phone-banking-authentication.html",
+    "depth": 2,
+    "title": "Authentication in Phone Banking | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/authentication-in-phone-banking-dbs-singapore.md"
+  },
+  "bbea2dffb091": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-phone-banking-services.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-phone-banking-services.html",
+    "depth": 2,
+    "title": "Phone Banking Services | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/phone-banking-services-dbs-singapore.md"
+  },
+  "f994039b326d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-application.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-application.html",
+    "depth": 2,
+    "title": "Apply for a Debit Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-a-debit-card-dbs-singapore.md"
+  },
+  "872ba2943bd5": {
+    "url": "https://www.dbs.com.sg/personal/support/card-activate-new-card.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-activate-new-card.html",
+    "depth": 2,
+    "title": "Activate New Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/activate-new-card-dbs-singapore.md"
+  },
+  "d45babc008b5": {
+    "url": "https://www.dbs.com.sg/personal/support/card-overseas-enabling-for-overseas-use.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-overseas-enabling-for-overseas-use.html",
+    "depth": 2,
+    "title": "Enable/ Disable Card For In Store Overseas Use | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/enable-disable-card-for-in-store-overseas-use-dbs-singapore.md"
+  },
+  "421f3727d9a0": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-transaction-details.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-transaction-details.html",
+    "depth": 2,
+    "title": "Check Debit Card Transaction Details | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-debit-card-transaction-details-dbs-singapore.md"
+  },
+  "749ee5c95cfc": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-withdraw-cash-overseas.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-withdraw-cash-overseas.html",
+    "depth": 2,
+    "title": "Transact & Withdraw in Foreign Currency Overseas | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/transact-withdraw-in-foreign-currency-overseas-dbs-singapore.md"
+  },
+  "e5f19bfc253f": {
+    "url": "https://www.dbs.com.sg/personal/support/card-issues-card-replacement.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-issues-card-replacement.html",
+    "depth": 2,
+    "title": "Replace Credit/Debit/ATM Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/replace-creditdebitatm-card-dbs-singapore-1.md"
+  },
+  "9ef68b2cd10c": {
+    "url": "https://www.dbs.com.sg/personal/support/general-incorrect-transaction.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/general-incorrect-transaction.html",
+    "depth": 2,
+    "title": "Your Guide to Submit Card Transaction Dispute | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/your-guide-to-submit-card-transaction-dispute-dbs-singapore-1.md"
+  },
+  "cec4ebaa9f86": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-unable-to-withdraw.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-unable-to-withdraw.html",
+    "depth": 2,
+    "title": "Unable to Withdraw and Transact | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/unable-to-withdraw-and-transact-dbs-singapore-1.md"
+  },
+  "86df0ea58cf2": {
+    "url": "https://www.dbs.com.sg/personal/support/card-issues-forget-pin.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-issues-forget-pin.html",
+    "depth": 2,
+    "title": "Reset Card PIN | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/reset-card-pin-dbs-singapore.md"
+  },
+  "c0b95e6194a2": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-change-atm-card-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-change-atm-card-limit.html",
+    "depth": 2,
+    "title": "Update ATM/Debit Card Limits | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/update-atmdebit-card-limits-dbs-singapore.md"
+  },
+  "7281388ee796": {
+    "url": "https://www.dbs.com.sg/personal/support/card-application-link-card-to-deposit-account.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-application-link-card-to-deposit-account.html",
+    "depth": 2,
+    "title": "Manage Accounts Linked to your Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/manage-accounts-linked-to-your-card-dbs-singapore.md"
+  },
+  "fb9e30df5b2c": {
+    "url": "https://www.dbs.com.sg/personal/support/card-charges-and-fees-overseas-transaction-fees.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-charges-and-fees-overseas-transaction-fees.html",
+    "depth": 2,
+    "title": "Debit/Credit Card Foreign Transaction Fee Guide | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/debitcredit-card-foreign-transaction-fee-guide-dbs-singapore.md"
+  },
+  "5f7194472581": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-charges-overseas-withdrawal.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-atm-debit-card-charges-overseas-withdrawal.html",
+    "depth": 2,
+    "title": "Overseas Withdrawal Charges | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/overseas-withdrawal-charges-dbs-singapore.md"
+  },
+  "cf8620af0f2e": {
+    "url": "https://www.dbs.com.sg/personal/support/card-issues-terminate-card.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-issues-terminate-card.html",
+    "depth": 2,
+    "title": "How to Cancel Credit, Debit or ATM Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/how-to-cancel-credit-debit-or-atm-card-dbs-singapore.md"
+  },
+  "c0399b463842": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-depositing-cheques.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-depositing-cheques.html",
+    "depth": 2,
+    "title": "Deposit/Issue a Cheque",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/depositissue-a-cheque.md"
+  },
+  "8f3076ea39ee": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-clearing.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-clearing.html",
+    "depth": 2,
+    "title": "Cheque Clearing",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/cheque-clearing.md"
+  },
+  "4ecfd247a19d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-view-cheque-status.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-view-cheque-status.html",
+    "depth": 2,
+    "title": "View Cheque Status | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/view-cheque-status-dbs-singapore.md"
+  },
+  "a4d16347ef5c": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-returned-cheques-reasons.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-returned-cheques-reasons.html",
+    "depth": 2,
+    "title": "Returned/Bounced Cheque | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/returnedbounced-cheque-dbs-singapore.md"
+  },
+  "9bdb17e5b504": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-cashiers-order.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-cashiers-order.html",
+    "depth": 2,
+    "title": "Purchase Cashier's Order | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/purchase-cashiers-order-dbs-singapore-1.md"
+  },
+  "42d1b94da2ab": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-demand-draft.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payeasy-purchase-demand-draft.html",
+    "depth": 2,
+    "title": "Purchase a Demand Draft | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/purchase-a-demand-draft-dbs-singapore.md"
+  },
+  "b162384af026": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-purchase-ibcheque.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-purchase-ibcheque.html",
+    "depth": 2,
+    "title": "Issue an Online Cheque | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/issue-an-online-cheque-dbs-singapore.md"
+  },
+  "e8c4dc0f9a37": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-purchase-ibcheque-add-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-purchase-ibcheque-add-recipient.html",
+    "depth": 2,
+    "title": "Add Cheque or Demand Draft Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/add-cheque-or-demand-draft-recipient-dbs-singapore.md"
+  },
+  "f243daa45571": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-purchase-ibcheque-remove-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-purchase-ibcheque-remove-recipient.html",
+    "depth": 2,
+    "title": "Remove Cheque or Demand Draft Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/remove-cheque-or-demand-draft-recipient-dbs-singapore.md"
+  },
+  "17e3b1d10124": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-wrongly-deposited-cheques.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-wrongly-deposited-cheques.html",
+    "depth": 2,
+    "title": "Deposit Cheque Wrongly | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/deposit-cheque-wrongly-dbs-singapore.md"
+  },
+  "ea791fc7d7a1": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-cancelling-cheques.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-cancelling-cheques.html",
+    "depth": 2,
+    "title": "Cancel Cheque | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/cancel-cheque-dbs-singapore.md"
+  },
+  "dfdc724293f4": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-multiple-names-in-cheque.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-multiple-names-in-cheque.html",
+    "depth": 2,
+    "title": "Multiple Names in Cheque| DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/multiple-names-in-cheque-dbs-singapore.md"
+  },
+  "037135233314": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-request-new-cheque-book.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-request-new-cheque-book.html",
+    "depth": 2,
+    "title": "Request for New Cheque Book | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/request-for-new-cheque-book-dbs-singapore.md"
+  },
+  "2e64c60e5901": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-cheque-fc-cheque-fees.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-cheque-fc-cheque-fees.html",
+    "depth": 2,
+    "title": "Foreign Currency Cheque Deposit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/foreign-currency-cheque-deposit-dbs-singapore.md"
+  },
+  "4bb4cfc6f7d7": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-minimum-operating-system-requirements.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-minimum-operating-system-requirements.html",
+    "depth": 2,
+    "title": "Minimum Operating System (OS) Requirements | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/minimum-operating-system-os-requirements-dbs-singapore.md"
+  },
+  "50db29df8d29": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token.html",
+    "depth": 2,
+    "title": "Set up your Digital Token",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/set-up-your-digital-token-1.md"
+  },
+  "ae6adbbe2078": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-ibanking.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-ibanking.html",
+    "depth": 2,
+    "title": "Apply for digibank",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-digibank-1.md"
+  },
+  "ce1ae477f5aa": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token-setup.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ibanking-digital-token-setup.html",
+    "depth": 2,
+    "title": "Set up your Digital Token | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/set-up-your-digital-token-dbs-singapore.md"
+  },
+  "28b3b71b41d5": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ibanking-application.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ibanking-application.html",
+    "depth": 2,
+    "title": "Apply for digibank | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-digibank-dbs-singapore.md"
+  },
+  "14d040a44737": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-digibank-reset-uid-pin.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-digibank-reset-uid-pin.html",
+    "depth": 2,
+    "title": "Reset/Retrieve digibank User ID and/or PIN | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/resetretrieve-digibank-user-id-andor-pin-dbs-singapore.md"
+  },
+  "ddb7ab42d662": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ibanking-using-ib-secure-device.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ibanking-using-ib-secure-device.html",
+    "depth": 2,
+    "title": "Using your DBS Physical Token | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/using-your-dbs-physical-token-dbs-singapore.md"
+  },
+  "a7a1f678eaa2": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ibanking-notification-alerts.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ibanking-notification-alerts.html",
+    "depth": 2,
+    "title": "DBS Manage Alerts, Offers & Insights Notifications | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbs-manage-alerts-offers-insights-notifications-dbs-singapore.md"
+  },
+  "83b682d398b9": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-switch-simple-full-mode.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-switch-simple-full-mode.html",
+    "depth": 2,
+    "title": "Switch your digibank mobile to Simple Mode | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/switch-your-digibank-mobile-to-simple-mode-dbs-singapore.md"
+  },
+  "dbea47202479": {
+    "url": "https://www.dbs.com.sg/personal/digiwealth/why-digiwealth.page",
+    "normalized": "https://www.dbs.com.sg/personal/digiwealth/why-digiwealth.page",
+    "depth": 2,
+    "title": "DBS digiWealth",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbs-digiwealth.md"
+  },
+  "12448cc55906": {
+    "url": "https://www.dbs.com.sg/personal/deposits/digital-services/sgfindex",
+    "normalized": "https://www.dbs.com.sg/personal/deposits/digital-services/sgfindex",
+    "depth": 2,
+    "title": "Connect all yourfinances with ease",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/connect-all-yourfinances-with-ease.md"
+  },
+  "f1d4b76e1b37": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-sgfindex-link-insurance.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-sgfindex-link-insurance.html",
+    "depth": 2,
+    "title": "Link your financial data via SGFinDex | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/link-your-financial-data-via-sgfindex-dbs-singapore.md"
+  },
+  "aeda12e3391b": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-sgfindex-unlink-financial-institution.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-sgfindex-unlink-financial-institution.html",
+    "depth": 2,
+    "title": "Unlink your financial data via SGFinDex | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/unlink-your-financial-data-via-sgfindex-dbs-singapore.md"
+  },
+  "44b30680d7fe": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-multiplier-eligible-transactions.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-multiplier-eligible-transactions.html",
+    "depth": 2,
+    "title": "Understanding Multiplier\u00e2\u0080\u0099s Interest and Eligible Transactions | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/understanding-multiplier\u00e2s-interest-and-eligible-transactions-dbs-singapore.md"
+  },
+  "c70362b2b310": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-opening.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-opening.html",
+    "depth": 2,
+    "title": "Open a Fixed Deposit Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/open-a-fixed-deposit-account-dbs-singapore.md"
+  },
+  "78ac902fdbe8": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-placement.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-placement.html",
+    "depth": 2,
+    "title": "Fixed Deposit Placement | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/fixed-deposit-placement-dbs-singapore.md"
+  },
+  "e557cf221fc7": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-withdrawal.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-withdrawal.html",
+    "depth": 2,
+    "title": "Fixed Deposit Premature Withdrawal | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/fixed-deposit-premature-withdrawal-dbs-singapore.md"
+  },
+  "9a51c9facf5b": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-maturity-instructions.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-account-fixed-deposit-maturity-instructions.html",
+    "depth": 2,
+    "title": "Change Fixed Deposit Maturity Instructions | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-fixed-deposit-maturity-instructions-dbs-singapore.md"
+  },
+  "8b6786dc3d7e": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-transfer-to-other-bank-accounts.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-transfer-to-other-bank-accounts.html",
+    "depth": 2,
+    "title": "Transfer Funds to Other Bank Accounts in Singapore | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/transfer-funds-to-other-bank-accounts-in-singapore-dbs-singapore.md"
+  },
+  "3a3eb957a7ca": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-add-bank-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-add-bank-recipient.html",
+    "depth": 2,
+    "title": "Add Fund Transfer Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/add-fund-transfer-recipient-dbs-singapore.md"
+  },
+  "a85d06d19980": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-remove-bank-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-remove-bank-recipient.html",
+    "depth": 2,
+    "title": "Remove Fund Transfer Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/remove-fund-transfer-recipient-dbs-singapore.md"
+  },
+  "195aa9f72884": {
+    "url": "https://www.dbs.com.sg/personal/support/[removed%20251118]%20bank-retrieve-share-transaction-details.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/[removed%20251118]%20bank-retrieve-share-transaction-details.html",
+    "depth": 2,
+    "title": "Spinner App",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/spinner-app.md"
+  },
+  "23ea8eb3ce53": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-paylah.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-paylah.html",
+    "depth": 2,
+    "title": "Apply for DBS PayLah!",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-dbs-paylah.md"
+  },
+  "4074ea534613": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-setup-recurring-funds-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-setup-recurring-funds-transfer.html",
+    "depth": 2,
+    "title": "Set up Standing Instruction for Local Funds Transfer | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/set-up-standing-instruction-for-local-funds-transfer-dbs-singapore.md"
+  },
+  "16270caac1a5": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-view-recurring-funds-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-view-recurring-funds-transfer.html",
+    "depth": 2,
+    "title": "View Standing Instruction for Local Funds Transfer | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/view-standing-instruction-for-local-funds-transfer-dbs-singapore.md"
+  },
+  "ec7c6b918cff": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-terminate-recurring-funds-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-terminate-recurring-funds-transfer.html",
+    "depth": 2,
+    "title": "Terminate Standing Instruction for Local Funds Transfer | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/terminate-standing-instruction-for-local-funds-transfer-dbs-singapore.md"
+  },
+  "3c22d7ac27e1": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-change-funds-transfer-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-change-funds-transfer-limit.html",
+    "depth": 2,
+    "title": "Change Local Funds Transfer Limits | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-local-funds-transfer-limits-dbs-singapore.md"
+  },
+  "6713251566ae": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-wrong-funds-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-wrong-funds-transfer.html",
+    "depth": 2,
+    "title": "Made a funds transfer to a wrong recipient? | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/made-a-funds-transfer-to-a-wrong-recipient-dbs-singapore.md"
+  },
+  "c81ce0520509": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-unsuccessful-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-unsuccessful-transfer.html",
+    "depth": 2,
+    "title": "Unsuccessful Fund Transfer to Another Bank Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/unsuccessful-fund-transfer-to-another-bank-account-dbs-singapore.md"
+  },
+  "e32453de7582": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-receive-funds-from-others.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-receive-funds-from-others.html",
+    "depth": 2,
+    "title": "Receive Funds from Others | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/receive-funds-from-others-dbs-singapore.md"
+  },
+  "328dcfcd15e2": {
+    "url": "https://www.dbs.com.sg/personal/support/guide-remit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/guide-remit.html",
+    "depth": 2,
+    "title": "Why DBS Remit is better?",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/why-dbs-remit-is-better-1.md"
+  },
+  "21039659cbbf": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-new-remittance.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-new-remittance.html",
+    "depth": 2,
+    "title": "Transfer Funds to Overseas Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/transfer-funds-to-overseas-account-dbs-singapore-1.md"
+  },
+  "2ab1a53d6900": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-remittance-add-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-remittance-add-recipient.html",
+    "depth": 2,
+    "title": "Add Overseas Funds Transfer Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/add-overseas-funds-transfer-recipient-dbs-singapore.md"
+  },
+  "2dfb463602f7": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-remittance-remove-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-remittance-remove-recipient.html",
+    "depth": 2,
+    "title": "Remove Overseas Funds Transfer Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/remove-overseas-funds-transfer-recipient-dbs-singapore.md"
+  },
+  "637c3457ac8f": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-dbs-remit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-dbs-remit.html",
+    "depth": 2,
+    "title": "DBS Remit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbs-remit-dbs-singapore.md"
+  },
+  "b18e9c372a15": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-countries.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-countries.html",
+    "depth": 2,
+    "title": "Country Specific Information for DBS Remit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/country-specific-information-for-dbs-remit-dbs-singapore.md"
+  },
+  "32fcf3a3beff": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-fees-and-charges.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-fees-and-charges.html",
+    "depth": 2,
+    "title": "Fees and Charges for Overseas Funds Transfer",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/fees-and-charges-for-overseas-funds-transfer.md"
+  },
+  "662c82ef9054": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-service-standards.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-service-standards.html",
+    "depth": 2,
+    "title": "International Money Transfer Limits & Timing | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/international-money-transfer-limits-timing-dbs-singapore-1.md"
+  },
+  "0e19b9199881": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-delayed.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-delayed.html",
+    "depth": 2,
+    "title": "Reasons for Delayed Overseas Funds Transfer | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/reasons-for-delayed-overseas-funds-transfer-dbs-singapore.md"
+  },
+  "d1697d5aa807": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-wrong-funds-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-wrong-funds-transfer.html",
+    "depth": 2,
+    "title": "Amend or Cancel your Overseas Funds Transfer | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/amend-or-cancel-your-overseas-funds-transfer-dbs-singapore.md"
+  },
+  "a23ac4da7ef7": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-change-funds-transfer-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-change-funds-transfer-limit.html",
+    "depth": 2,
+    "title": "Change Overseas Funds Transfer Limit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-overseas-funds-transfer-limit-dbs-singapore.md"
+  },
+  "2d01b1192554": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-recurring-funds-transfer-to-overseas-account.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-recurring-funds-transfer-to-overseas-account.html",
+    "depth": 2,
+    "title": "Set up Recurring Funds Transfer to an Overseas Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/set-up-recurring-funds-transfer-to-an-overseas-account-dbs-singapore.md"
+  },
+  "1d2299494658": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-amend-recurring-funds-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-amend-recurring-funds-transfer.html",
+    "depth": 2,
+    "title": "View/Amend Recurring Funds Transfer to an Overseas Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/viewamend-recurring-funds-transfer-to-an-overseas-account-dbs-singapore.md"
+  },
+  "da30be2cb2b3": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-delete-recurring-funds-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-delete-recurring-funds-transfer.html",
+    "depth": 2,
+    "title": "Delete Recurring Funds Transfer to an Overseas Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/delete-recurring-funds-transfer-to-an-overseas-account-dbs-singapore.md"
+  },
+  "281934f2ed2d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-funds-transfer-to-overseas-credit-card.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-overseas-funds-transfer-funds-transfer-to-overseas-credit-card.html",
+    "depth": 2,
+    "title": "Transfer to Overseas Visa Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/transfer-to-overseas-visa-card-dbs-singapore.md"
+  },
+  "c09306ce4ffe": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-register-profile.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-register-profile.html",
+    "depth": 2,
+    "title": "Apply for PayNow | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-paynow-dbs-singapore-1.md"
+  },
+  "4bd88d8cb78c": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-register-child-profile.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-register-child-profile.html",
+    "depth": 2,
+    "title": "Apply for PayNow for your Child (<16 years old) | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-paynow-for-your-child-16-years-old-dbs-singapore.md"
+  },
+  "2975d5633aa0": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-check-profile.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-check-profile.html",
+    "depth": 2,
+    "title": "Check PayNow Profile | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-paynow-profile-dbs-singapore.md"
+  },
+  "8c6742864b96": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-amend-profile.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-amend-profile.html",
+    "depth": 2,
+    "title": "Update PayNow Details | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/update-paynow-details-dbs-singapore.md"
+  },
+  "dd35049fdeeb": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-add-paynow-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-add-paynow-recipient.html",
+    "depth": 2,
+    "title": "Add PayNow Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/add-paynow-recipient-dbs-singapore.md"
+  },
+  "37890cf8ea9d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-paynow-transfer.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-paynow-transfer.html",
+    "depth": 2,
+    "title": "Transfer Funds using PayNow | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/transfer-funds-using-paynow-dbs-singapore.md"
+  },
+  "a1951c0e6b8d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-remove-paynow-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-local-funds-transfer-remove-paynow-recipient.html",
+    "depth": 2,
+    "title": "Remove PayNow Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/remove-paynow-recipient-dbs-singapore.md"
+  },
+  "c796fdc4cc9a": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-deregister-profile.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-deregister-profile.html",
+    "depth": 2,
+    "title": "Cancel PayNow Profile | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/cancel-paynow-profile-dbs-singapore.md"
+  },
+  "27b7d490b909": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-deregister-child-profile.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paynow-deregister-child-profile.html",
+    "depth": 2,
+    "title": "Cancel Child's PayNow (<16 years old) | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/cancel-childs-paynow-16-years-old-dbs-singapore.md"
+  },
+  "bf7788b3c3c4": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-apply-paylah.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-apply-paylah.html",
+    "depth": 2,
+    "title": "Apply for DBS PayLah! | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-dbs-paylah-dbs-singapore.md"
+  },
+  "47b73d319769": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-request-funds.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-request-funds.html",
+    "depth": 2,
+    "title": "Request Funds using DBS PayLah! | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/request-funds-using-dbs-paylah-dbs-singapore.md"
+  },
+  "a8f2af579787": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-transfer-funds.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-transfer-funds.html",
+    "depth": 2,
+    "title": "Transfer Funds using DBS PayLah! | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/transfer-funds-using-dbs-paylah-dbs-singapore.md"
+  },
+  "09e98a79523a": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-responding-transfer-funds.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-responding-transfer-funds.html",
+    "depth": 2,
+    "title": "Responding to Fund Requests using DBS PayLah! | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/responding-to-fund-requests-using-dbs-paylah-dbs-singapore.md"
+  },
+  "0ec96258738e": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-scan-and-pay.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-scan-and-pay.html",
+    "depth": 2,
+    "title": "Scan & Pay using DBS PayLah! | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/scan-pay-using-dbs-paylah-dbs-singapore.md"
+  },
+  "9c55c3bd1067": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-bill-payment.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-bill-payment.html",
+    "depth": 2,
+    "title": "Pay Bills Using DBS PayLah! | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/pay-bills-using-dbs-paylah-dbs-singapore.md"
+  },
+  "1b86e92bb86d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-merchant-checkout.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-merchant-checkout.html",
+    "depth": 2,
+    "title": "Pay Merchants using DBS PayLah! | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/pay-merchants-using-dbs-paylah-dbs-singapore.md"
+  },
+  "ab28f95ad411": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-transaction-history.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-transaction-history.html",
+    "depth": 2,
+    "title": "Check DBS PayLah! Transaction History | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-dbs-paylah-transaction-history-dbs-singapore.md"
+  },
+  "f69fa2d53232": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-estatement.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-estatement.html",
+    "depth": 2,
+    "title": "View your DBS PayLah! eStatements | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/view-your-dbs-paylah-estatements-dbs-singapore.md"
+  },
+  "662e8486bf4d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-nickname.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-nickname.html",
+    "depth": 2,
+    "title": "Change DBS PayLah! Profile and Nickname | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-dbs-paylah-profile-and-nickname-dbs-singapore.md"
+  },
+  "7104a8b542bc": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-manage-notifications.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-manage-notifications.html",
+    "depth": 2,
+    "title": "Manage DBS PayLah! Notifications | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/manage-dbs-paylah-notifications-dbs-singapore.md"
+  },
+  "cc43c47421d8": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-manage-wallet.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-manage-wallet.html",
+    "depth": 2,
+    "title": "Manage DBS PayLah! Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/manage-dbs-paylah-account-dbs-singapore.md"
+  },
+  "168b22941620": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-account.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-account.html",
+    "depth": 2,
+    "title": "Update DBS PayLah! Linked Account | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/update-dbs-paylah-linked-account-dbs-singapore.md"
+  },
+  "a31a7744629f": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-wallet-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-wallet-limit.html",
+    "depth": 2,
+    "title": "Update DBS PayLah! Wallet Limit and Daily Transfer Limit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/update-dbs-paylah-wallet-limit-and-daily-transfer-limit-dbs-singapore.md"
+  },
+  "c97c28136526": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-mobile-number.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-paylah-change-mobile-number.html",
+    "depth": 2,
+    "title": "Keeping your DBS PayLah! Mobile Number Updated | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/keeping-your-dbs-paylah-mobile-number-updated-dbs-singapore.md"
+  },
+  "878313d3b971": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-reset-paylah.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-reset-paylah.html",
+    "depth": 2,
+    "title": "Change DBS PayLah! Password | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-dbs-paylah-password-dbs-singapore.md"
+  },
+  "92cce7ee5d00": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-ssb-close-paylah.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-ssb-close-paylah.html",
+    "depth": 2,
+    "title": "Close DBS PayLah! Wallet | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/close-dbs-paylah-wallet-dbs-singapore.md"
+  },
+  "16969efef334": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-bill-payment.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-bill-payment.html",
+    "depth": 2,
+    "title": "Make Bill Payment | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/make-bill-payment-dbs-singapore.md"
+  },
+  "e4f0a0bd1e77": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-add-bill-payment-organisations.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-add-bill-payment-organisations.html",
+    "depth": 2,
+    "title": "Add Bill Payment Organisation | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/add-bill-payment-organisation-dbs-singapore.md"
+  },
+  "d1829f6d95c4": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-remove-bill-payment-organisations.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-remove-bill-payment-organisations.html",
+    "depth": 2,
+    "title": "Remove Bill Payment Organisation | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/remove-bill-payment-organisation-dbs-singapore.md"
+  },
+  "3668fbffe524": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-pay-other-bank-credit-cards.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-pay-other-bank-credit-cards.html",
+    "depth": 2,
+    "title": "DBS Singapore: How to Pay Other Banks' Credit Card Bills",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbs-singapore-how-to-pay-other-banks-credit-card-bills.md"
+  },
+  "2747cf5297d4": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-add-other-bank-credit-cards-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-add-other-bank-credit-cards-recipient.html",
+    "depth": 2,
+    "title": "Add Other Bank's Credit Cards Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/add-other-banks-credit-cards-recipient-dbs-singapore.md"
+  },
+  "7dacea22659f": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-remove-other-bank-credit-cards-recipient.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-remove-other-bank-credit-cards-recipient.html",
+    "depth": 2,
+    "title": "Remove Other Bank's Credit Cards Recipient | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/remove-other-banks-credit-cards-recipient-dbs-singapore.md"
+  },
+  "9da2bffdd890": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-application.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-application.html",
+    "depth": 2,
+    "title": "eNets (D2Pay) Application | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/enets-d2pay-application-dbs-singapore.md"
+  },
+  "372f785594d4": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-amend-payment-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-amend-payment-limit.html",
+    "depth": 2,
+    "title": "Change eNets (D2Pay) Payment Limit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-enets-d2pay-payment-limit-dbs-singapore.md"
+  },
+  "058e31b173e9": {
+    "url": "https://www.dbs.com.sg/personal/forms/paymentstransfers/d2payindividual/Pages/default.page",
+    "normalized": "https://www.dbs.com.sg/personal/forms/paymentstransfers/d2payindividual/pages/default.page",
+    "depth": 2,
+    "title": "DBS d2Pay (eNets)",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/dbs-d2pay-enets.md"
+  },
+  "d35ec441ddef": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-deactivation.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-enets-d2pay-deactivation.html",
+    "depth": 2,
+    "title": "Deactivate eNets (D2Pay) | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/deactivate-enets-d2pay-dbs-singapore.md"
+  },
+  "520fbda3446e": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-setup-giro-arrangement.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-setup-giro-arrangement.html",
+    "depth": 2,
+    "title": "Set up a GIRO Arrangement | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/set-up-a-giro-arrangement-dbs-singapore.md"
+  },
+  "67fea6e78e1a": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-view-active-giro-arrangements.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-view-active-giro-arrangements.html",
+    "depth": 2,
+    "title": "View Active GIRO Arrangements | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/view-active-giro-arrangements-dbs-singapore.md"
+  },
+  "deef4ea3e863": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-update-giro-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-update-giro-limit.html",
+    "depth": 2,
+    "title": "Update GIRO Payment Limit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/update-giro-payment-limit-dbs-singapore.md"
+  },
+  "bd46f44f99cf": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-terminate-giro-arrangement.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-terminate-giro-arrangement.html",
+    "depth": 2,
+    "title": "Terminate GIRO Arrangement | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/terminate-giro-arrangement-dbs-singapore.md"
+  },
+  "3d5fefcb5906": {
+    "url": "https://www.dbs.com.sg/personal/support/card-payment-update-recurring-bill-payments.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-payment-update-recurring-bill-payments.html",
+    "depth": 2,
+    "title": "Update Recurring Bill Payments with Billing Organisations | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/update-recurring-bill-payments-with-billing-organisations-dbs-singapore.md"
+  },
+  "4f7d7ce178ce": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-top-up-mobile-prepaid.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-top-up-mobile-prepaid.html",
+    "depth": 2,
+    "title": "Top Up Mobile Prepaid Number | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/top-up-mobile-prepaid-number-dbs-singapore.md"
+  },
+  "60d88c92369d": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-scan-and-pay-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-scan-and-pay-limit.html",
+    "depth": 2,
+    "title": "Change NETS QR Payment Limit | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/change-nets-qr-payment-limit-dbs-singapore.md"
+  },
+  "e6275711e795": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-issue-edp.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-issue-edp.html",
+    "depth": 2,
+    "title": "Issue an EDP/EDP+ | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/issue-an-edpedp-dbs-singapore.md"
+  },
+  "d0153e47bec4": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-cashout-edp.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-cashout-edp.html",
+    "depth": 2,
+    "title": "Cash out an EDP/EDP+ | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/cash-out-an-edpedp-dbs-singapore.md"
+  },
+  "f86d73dfc2d6": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-edp-status.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-edp-status.html",
+    "depth": 2,
+    "title": "Check Status of EDP/EDP+ | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/check-status-of-edpedp-dbs-singapore.md"
+  },
+  "b674f5149038": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-payment-cancel-reject-edp.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-payment-cancel-reject-edp.html",
+    "depth": 2,
+    "title": "Cancel or Reject an EDP/EDP+ | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/cancel-or-reject-an-edpedp-dbs-singapore.md"
+  },
+  "fd3b54f9bf5f": {
+    "url": "https://www.dbs.com.sg/personal/support/card-customise-card-functions.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-customise-card-functions.html",
+    "depth": 2,
+    "title": "Customise your Card Functions with Payment Controls | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/customise-your-card-functions-with-payment-controls-dbs-singapore.md"
+  },
+  "8922fcfdd9d4": {
+    "url": "https://www.dbs.com.sg/personal/support/card-temp-lock-card.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-temp-lock-card.html",
+    "depth": 2,
+    "title": "Lock your Card Temporarily using Payment Controls| DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/lock-your-card-temporarily-using-payment-controls-dbs-singapore.md"
+  },
+  "89d986d2b34c": {
+    "url": "https://www.dbs.com.sg/personal/support/card-manage-spending-limit.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-manage-spending-limit.html",
+    "depth": 2,
+    "title": "Manage your Card Monthly Limits using Payment Controls | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/manage-your-card-monthly-limits-using-payment-controls-dbs-singapore.md"
+  },
+  "865247fce164": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-calculate-madb.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-deposit-accounts-calculate-madb.html",
+    "depth": 2,
+    "title": "Spinner App",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/spinner-app-1.md"
+  },
+  "98c1b4f50286": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-consolidated-statements.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-consolidated-statements.html",
+    "depth": 2,
+    "title": "Consolidated Statements | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/consolidated-statements-dbs-singapore.md"
+  },
+  "05b3313924d5": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-retrieve-printed-statements.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-retrieve-printed-statements.html",
+    "depth": 2,
+    "title": "Retrieval of Printed Account Statements | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/retrieval-of-printed-account-statements-dbs-singapore-1.md"
+  },
+  "1251bc565640": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-financial-standing-statement.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-financial-standing-statement.html",
+    "depth": 2,
+    "title": "Apply for Financial Standing Statement | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-financial-standing-statement-dbs-singapore.md"
+  },
+  "e8d5c5834ecb": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-estatements-enrol.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-estatements-enrol.html",
+    "depth": 2,
+    "title": "Enrol to eStatement and eAdvices | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/enrol-to-estatement-and-eadvices-dbs-singapore.md"
+  },
+  "cae22258e62f": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-viewing-estatements.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-viewing-estatements.html",
+    "depth": 2,
+    "title": "View your eStatements and eAdvices | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/view-your-estatements-and-eadvices-dbs-singapore-1.md"
+  },
+  "da05f7f1347e": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-manage-eadvicesestatements-notification.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-manage-eadvicesestatements-notification.html",
+    "depth": 2,
+    "title": "Manage your eStatement and eAdvices Notification | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/manage-your-estatement-and-eadvices-notification-dbs-singapore.md"
+  },
+  "f16ffd10dc51": {
+    "url": "https://www.dbs.com.sg/personal/support/bank-statements-estatements-deenrol.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/bank-statements-estatements-deenrol.html",
+    "depth": 2,
+    "title": "De-enrol to eStatements and eAdvices | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/de-enrol-to-estatements-and-eadvices-dbs-singapore.md"
+  },
+  "4d19d4e99506": {
+    "url": "https://www.dbs.com.sg/personal/support/card-waive-credit-card-cashline-charges.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-waive-credit-card-cashline-charges.html",
+    "depth": 2,
+    "title": "Waive Credit Card / Cashline Fees & Charges | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/waive-credit-card-cashline-fees-charges-dbs-singapore-1.md"
+  },
+  "568597fa8e5e": {
+    "url": "https://www.dbs.com.sg/personal/support/card-application-new-card.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-application-new-card.html",
+    "depth": 2,
+    "title": "Credit Card Application Process | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/credit-card-application-process-dbs-singapore.md"
+  },
+  "2d36b9f15d64": {
+    "url": "https://www.dbs.com.sg/personal/support/card-application-supplementary-card.html",
+    "normalized": "https://www.dbs.com.sg/personal/support/card-application-supplementary-card.html",
+    "depth": 2,
+    "title": "Apply for a Supplementary Card | DBS Singapore",
+    "status": "success",
+    "output": "/home/yihao/projects/self-hosted-ai-starter-kit/scraper/output/apply-for-a-supplementary-card-dbs-singapore.md"
+  }
+}
