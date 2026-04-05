@@ -19,7 +19,7 @@ BASE_URL = "https://www.dbs.com.sg/personal/support/home.html"
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 DELAY_BETWEEN_REQUESTS = 1.5
 REQUEST_TIMEOUT = 30
-MAX_DEPTH = 5
+MAX_DEPTH = 3
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 # State
@@ -28,27 +28,25 @@ url_queue: deque[dict] = deque()
 
 # Setup logging
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
 # Session for connection pooling
 session = requests.Session()
-session.headers.update({
-    "User-Agent": USER_AGENT,
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.5",
-})
+session.headers.update(
+    {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+    }
+)
 
 
 def normalize_url(url: str) -> str:
-    """Normalize URL for deduplication - strip fragments, lowercase, sort query params."""
+    """Normalize URL for deduplication - strip fragments, lowercase, drop query params."""
     parsed = urlparse(url)
-    query = "&".join(sorted(parsed.query.split("&"))) if parsed.query else ""
     normalized = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
-    if query:
-        normalized += f"?{query}"
     return normalized.lower().rstrip("/")
 
 
@@ -63,14 +61,26 @@ def should_follow_url(url: str, current_depth: int) -> bool:
         return False
 
     parsed = urlparse(url)
-    
+
     # Must be same domain as base URL
     base_netloc = urlparse(BASE_URL).netloc
     if parsed.netloc != base_netloc:
         return False
 
     # Skip non-HTML resources
-    skip_extensions = (".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf", ".ico", ".woff", ".ttf")
+    skip_extensions = (
+        ".css",
+        ".js",
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".gif",
+        ".svg",
+        ".pdf",
+        ".ico",
+        ".woff",
+        ".ttf",
+    )
     if parsed.path.lower().endswith(skip_extensions):
         return False
 
@@ -109,9 +119,14 @@ def extract_links(html: str, base_url: str) -> list[dict]:
         href = a_tag["href"]
 
         # Skip non-content links
-        if any(skip in href.lower() for skip in [
-            "javascript:", "mailto:", "#",
-        ]):
+        if any(
+            skip in href.lower()
+            for skip in [
+                "javascript:",
+                "mailto:",
+                "#",
+            ]
+        ):
             continue
 
         # Build full URL
@@ -133,10 +148,12 @@ def extract_links(html: str, base_url: str) -> list[dict]:
         if title_attr and len(title_attr) > len(title):
             title = title_attr
 
-        links.append({
-            "url": full_url,
-            "title": title,
-        })
+        links.append(
+            {
+                "url": full_url,
+                "title": title,
+            }
+        )
 
     return links
 
@@ -195,10 +212,14 @@ def extract_article_content(html: str) -> dict:
 
     # Clean up content
     if content_area:
-        for tag in content_area.find_all(["script", "style", "nav", "footer", "header"]):
+        for tag in content_area.find_all(
+            ["script", "style", "nav", "footer", "header"]
+        ):
             tag.decompose()
 
-        for tag in content_area.find_all(class_=re.compile(r"nav|menu|breadcrumb|header|footer", re.I)):
+        for tag in content_area.find_all(
+            class_=re.compile(r"nav|menu|breadcrumb|header|footer", re.I)
+        ):
             tag.decompose()
 
         content_html = str(content_area)
@@ -229,7 +250,7 @@ def save_markdown(title: str, content: str, url: str, depth: int, output_path: s
     frontmatter = f"""---
 title: "{title}"
 source_url: "{url}"
-scraped_date: "{time.strftime('%Y-%m-%d %H:%M:%S')}"
+scraped_date: "{time.strftime("%Y-%m-%d %H:%M:%S")}"
 depth: {depth}
 ---
 
@@ -259,11 +280,13 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # Seed queue with base URL
-    url_queue.append({
-        "url": BASE_URL,
-        "title": "DBS Help & Support",
-        "depth": 0,
-    })
+    url_queue.append(
+        {
+            "url": BASE_URL,
+            "title": "DBS Help & Support",
+            "depth": 0,
+        }
+    )
 
     success_count = 0
     fail_count = 0
@@ -346,11 +369,13 @@ def main():
                 link_hash = url_hash(link_url)
 
                 if link_hash not in visited_urls:
-                    url_queue.append({
-                        "url": link_url,
-                        "title": link["title"],
-                        "depth": depth + 1,
-                    })
+                    url_queue.append(
+                        {
+                            "url": link_url,
+                            "title": link["title"],
+                            "depth": depth + 1,
+                        }
+                    )
                     new_links += 1
 
             if new_links > 0:
@@ -367,14 +392,14 @@ def main():
     save_visited_urls()
 
     # Summary
-    logger.info(f"\n{'='*50}")
+    logger.info(f"\n{'=' * 50}")
     logger.info(f"Scraping complete!")
     logger.info(f"  Successful: {success_count}")
     logger.info(f"  Failed: {fail_count}")
     logger.info(f"  Skipped (duplicates): {skipped_count}")
     logger.info(f"  Total unique URLs visited: {len(visited_urls)}")
     logger.info(f"  Output directory: {OUTPUT_DIR}")
-    logger.info(f"{'='*50}")
+    logger.info(f"{'=' * 50}")
 
 
 if __name__ == "__main__":
