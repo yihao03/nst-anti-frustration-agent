@@ -1,0 +1,1192 @@
+{
+  "name": "Audited Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -3200,
+        32
+      ],
+      "id": "dcffc197-1d7a-4223-bdb0-72be2a27d6fd",
+      "name": "input",
+      "webhookId": "aace182f-f712-492d-8217-a39c88316620"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "check-approved",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "APPROVED",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        80,
+        48
+      ],
+      "id": "cf588294-71c9-4e94-a7bb-f67a598fbb83",
+      "name": "Is Approved?"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "check-attempts",
+              "leftValue": "={{ $('Capture Draft').item.json.attempts }}",
+              "rightValue": "={{ 3 }}",
+              "operator": {
+                "type": "number",
+                "operation": "lt",
+                "name": "filter.operator.lt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        304,
+        208
+      ],
+      "id": "23c33df6-04b7-43b6-9d41-c15119a1055f",
+      "name": "Under Loop Limit?"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "loop-query",
+              "name": "originalQuery",
+              "value": "={{ $json.originalQuery }}",
+              "type": "string"
+            },
+            {
+              "id": "loop-draft",
+              "name": "currentDraft",
+              "value": "={{ $json.currentDraft }}",
+              "type": "string"
+            },
+            {
+              "id": "loop-feedback",
+              "name": "feedback",
+              "value": "={{ $json.feedback }}",
+              "type": "string"
+            },
+            {
+              "id": "loop-attempts",
+              "name": "attempts",
+              "value": "={{ $json.attempts }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        672,
+        240
+      ],
+      "id": "cc1e7adc-d3c1-4f8a-8b37-aca3e7ae0832",
+      "name": "Loop Back"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "init-query",
+              "name": "originalQuery",
+              "value": "={{ $json.chatInput || $json.query.message }}",
+              "type": "string"
+            },
+            {
+              "id": "init-draft",
+              "name": "currentDraft",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "init-feedback",
+              "name": "feedback",
+              "value": "",
+              "type": "string"
+            },
+            {
+              "id": "init-attempts",
+              "name": "attempts",
+              "value": 0,
+              "type": "number"
+            },
+            {
+              "id": "a2f064fc-1c28-436a-82ca-b01bb26eec0b",
+              "name": "sessionId",
+              "value": "={{ $json.sessionId || $json.query.sessionId }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -2992,
+        32
+      ],
+      "id": "17a3f33f-30e5-493c-9e72-731851a34313",
+      "name": "Initialize State"
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Initialize State').item.json.sessionId }}",
+        "contextWindowLength": 8
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        -1136,
+        672
+      ],
+      "id": "6da40418-671b-4d95-b1a8-3963fbfbe18a",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolDescription": "Fetch data regarding product information and policies",
+        "qdrantCollection": {
+          "__rl": true,
+          "mode": "list",
+          "value": "dbs_docs_kb"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
+      "typeVersion": 1.3,
+      "position": [
+        -464,
+        480
+      ],
+      "id": "e7f7b7cf-53fe-49a9-82fd-45d72ccee9f3",
+      "name": "Qdrant Vector Store",
+      "credentials": {
+        "qdrantApi": {
+          "id": "MXRdSQvSDJNhIJo0",
+          "name": "QdrantApi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "qwen3-embedding:0.6b"
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
+      "typeVersion": 1,
+      "position": [
+        -464,
+        672
+      ],
+      "id": "d592d7e5-5dcb-46e1-8958-be0cb6779f49",
+      "name": "Embeddings Ollama",
+      "credentials": {
+        "ollamaApi": {
+          "id": "lc6VnP59BCXcn4QU",
+          "name": "Ollama account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\"status\": \"APPROVED\", \"feedback\": \"\"}",
+        "autoFix": true
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -144,
+        272
+      ],
+      "id": "0a4d816b-c7c3-4c3f-8901-980f867129bb",
+      "name": "Structured Output Parser",
+      "retryOnFail": false,
+      "maxTries": 2
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Agent's draft response: {{ $json.currentDraft }}\nAgent's retrieved knowledge: {{  $json.retrieved_knowledge }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "You are a quality auditor for a DBS bank customer service team. You review the main agent's draft response before it reaches the customer. You do NOT talk to the customer \u2014 you only evaluate and return structured feedback.\n\n## You Receive\n- The main agent's draft response\n\n## Evaluation Criteria\n\n### Factual Accuracy\n- Does the response match the retrieved knowledge base chunks?\n- Are there any claims not supported by the retrieved content?\n- Has the agent invented details, steps, or policies not in the source material?\n- Are banking procedures and instructions correct based on the docs?\n\n### Policy Compliance\n- Does the response align with DBS policies (disputes & refunds, card delivery, privacy, terms & conditions, customer service SLA & escalation procedures)?\n- Has the agent made promises that contradict or exceed what policies allow?\n- If a dispute or refund involves significant amounts, did the agent escalate rather than handle it directly?\n- Did the agent follow proper fraud reporting and card blocking procedures where applicable?\n\n### Tone and Professionalism\n- Is the response warm and professional, not robotic or dismissive?\n- Is it free of blame or condescension?\n- Is the language appropriate for a banking context?\n\n## Output Rules\n- Respond with ONLY a raw JSON object. No markdown, no backticks, no explanation outside the JSON.\n- Status is APPROVED only if all three criteria pass. If any one fails, status is REJECTED.\n- When APPROVED, feedback should be an empty string.\n- When REJECTED, feedback must be a single concise string with specific instructions on what to fix. Include which criteria failed and what the correct behavior should be.\n\n## Output Format\n\n{\"status\": \"APPROVED\", \"feedback\": \"\"}\n\n{\"status\": \"REJECTED\", \"feedback\": \"Policy violation: agent promised fee reversal but policy states first-time reversals are case-by-case and at bank discretion. Tone: opening line is too blunt, acknowledge the customer's frustration first.\"}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -480,
+        48
+      ],
+      "id": "03b97c2c-df29-40c0-9a62-6569b830b797",
+      "name": "Auditor"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "58038c1f-85d5-43be-b648-5acde8d5af8b",
+              "name": "output",
+              "value": "={{ $('Capture Draft').item.json.currentDraft }}",
+              "type": "string"
+            },
+            {
+              "id": "215eefdd-795b-484e-8a91-cd3af648ce3d",
+              "name": "type",
+              "value": "response",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        672,
+        32
+      ],
+      "id": "84431744-02c4-4555-9a4a-01e0b27ea930",
+      "name": "Get Response"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "88711e6d-2399-46e9-9fb9-5eddb59760bb",
+              "name": "output",
+              "value": "=[Error] We are unable to get a response at this time",
+              "type": "string"
+            },
+            {
+              "id": "7f27fb70-b83f-4f45-badf-2b31c18d90b6",
+              "name": "type",
+              "value": "error",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        672,
+        464
+      ],
+      "id": "10148a90-0cb8-4e38-989f-f0052f1eee38",
+      "name": "Report error"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "9bbea652-4634-42af-a7a8-258aaf2f39f3",
+              "name": "status",
+              "value": "={{ $json.output.status }}",
+              "type": "string"
+            },
+            {
+              "id": "34d0383f-b2a4-4253-b8b0-a76fcf8c46e4",
+              "name": "feedback",
+              "value": "={{ $json.output.feedback }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -144,
+        48
+      ],
+      "id": "2c82ea57-f276-4398-975b-4bbbd67f7705",
+      "name": "Capture Auditor response"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Chat history: {{ $node['Transform History'].data.history }}\n\n{{ $json.feedback && 'AUDIT_REJECTED - Your previous draft: ' + $json.currentDraft + '\\nAuditor Feedback: ' + $json.feedback + '\\n\\nPlease rewrite your response fixing the issues mentioned above without user being aware of the rewrite and the audit.' }}",
+        "options": {
+          "systemMessage": "You are a customer service agent for DBS Bank. You assist customers with their banking needs including account inquiries, card services, transactions, disputes, and digital banking support.\n\n## Your Knowledge\nYou have access to a knowledge base containing:\n- DBS banking product documentation (accounts, cards, loans, investments, digital banking features)\n- Bank policies (disputes & refunds, card & document delivery, privacy, terms & conditions, customer service SLA & escalation procedures)\n\n## How to Answer\n1. ALWAYS search the knowledge base before answering. Never guess or make up information.\n2. Base your answer strictly on what the knowledge base returns. If the retrieved content doesn't fully answer the question, say what you do know and be clear about what you're unsure of.\n3. When citing policies, mention the specific policy name (e.g. \"Per our Dispute & Refund Policy...\").\n4. For banking procedures, provide step-by-step instructions when applicable.\n5. Keep answers concise and direct. Use short bullet points only for multi-step procedures.\n\n## Escalation Rules\nTransfer to a human agent when:\n- The issue involves suspected fraud, unauthorized transactions, or account compromise\n- The dispute involves significant financial amounts or complex billing issues\n- The customer has expressed dissatisfaction 3 or more times in the conversation\n- You cannot find a confident answer after searching the knowledge base\n- The issue involves potential regulatory or compliance concerns\n\nWhen escalating, say: \"I'd like to connect you with a member of our support team who can help further. A senior agent will follow up with you within [timeframe based on SLA].\"\n\n## Tone\n- Warm and professional, not robotic\n- Acknowledge the customer's situation before jumping into the answer\n- If the customer is frustrated, validate their feelings briefly then focus on solving the problem\n- Never blame the customer\n\n## Boundaries\n- Do not share internal infrastructure details, system architecture, or security procedures\n- Do not make promises outside of what the policies state (e.g. don't promise a fee reversal if the policy says it's at bank discretion)\n- Do not provide financial or investment advice unless through licensed advisors\n- Do not answer questions unrelated to DBS banking services \u2014 politely redirect\n- If asked about specific account balances, transaction details, or order status, explain that you don't have access to their account system and direct them to online banking or a branch"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -1376,
+        48
+      ],
+      "id": "cf6b99c2-62b7-45cf-be9f-f58a24b7ba8e",
+      "name": "Customer Service Agent",
+      "retryOnFail": false,
+      "executeOnce": false
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "pass-query",
+              "name": "originalQuery",
+              "value": "={{ $json?.originalQuery ?? $('Initialize State').first().json.originalQuery }}",
+              "type": "string"
+            },
+            {
+              "id": "pass-draft",
+              "name": "currentDraft",
+              "value": "={{ $json.output?.response ?? ($json.output ?? 'failed to capture current draft') }}",
+              "type": "string"
+            },
+            {
+              "id": "pass-attempts",
+              "name": "attempts",
+              "value": "={{ (($json?.attempts ?? $('Initialize State').first().json.attempts) || 0) + 1 }}",
+              "type": "number"
+            },
+            {
+              "id": "0d1366be-bdd5-4c91-af6d-66ec6f21b356",
+              "name": "retrieved_knowledge",
+              "value": "={{ $json.output.retrieved_knowledge }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -704,
+        48
+      ],
+      "id": "7a0057bd-9afc-4376-99f2-fff921a40aac",
+      "name": "Capture Draft"
+    },
+    {
+      "parameters": {
+        "model": "qwen3-coder-next",
+        "options": {
+          "format": "json"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        -240,
+        672
+      ],
+      "id": "c2ed940c-bfb3-4f87-aaa4-82e62b273736",
+      "name": "Ollama Chat Model1",
+      "credentials": {
+        "ollamaApi": {
+          "id": "2oLz7stj9MSKN0EK",
+          "name": "Ollama account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n\t\"thinking\": \"Model's thought\",\n\t\"response\": \"response to user\",\n    \"retrieved_knowledge\": \"retrieved knowledge to back up your claims\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -896,
+        304
+      ],
+      "id": "43b53fbf-856f-47e2-addc-b54a4954fc95",
+      "name": "Service Agent output parser",
+      "retryOnFail": false,
+      "maxTries": 5,
+      "executeOnce": false,
+      "alwaysOutputData": false,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.output }}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "Format the input into the following shape (A single json object ONLY). Do not say literally ANYTHING ELSE: { \t\"thinking\": \"your thought\", \t\"response\": \"response to user\",     \"retrieved_knowledge\": \"retrieved knowledge to back up your claims\" }"
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [
+        -1040,
+        48
+      ],
+      "id": "30fbdc44-c7e9-4f8f-b1de-0762ca02496f",
+      "name": "Output Parser because n8n sucks"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Assess this user input and report the severity accordingly: {{ $node['Initialize State'].data.originalQuery }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "# Task Description (T)\nIn this task, you are given a conversation between a user and a task-oriented dialog system. Your goal is to determine if the user is frustrated during the conversation.\nUser frustration is often expressed through negative emotions, such as anger, irritation, or dissatisfaction. Some cues\nindicating frustration include:\n\u2022 Profanity or abusive language directed at the system.\n\u2022 Hostility or irritation toward the assistant.\n\u2022 Direct expressions of frustration, such as complaints about the system's performance or the conversation itself.\nFrustration can also be more subtle and does not always involve negative language. A user may become frustrated when the system is unable to handle the conversation effectively or help the user accomplish their task. This may lead to\nbreakdowns in the dialogue, where the user either disengages or expresses a desire to stop the interaction. To classify frustration, consider the following signs:\n\u2022 Repetition of requests or questions due to the system's failure to resolve the user's issue.\n\u2022 Use of negation, where the user rejects the system's suggestions or responses.\n\u2022 Long, unresolved conversations where the user's task remains incomplete.\n\u2022 The user's general dissatisfaction with the system's responses, even without overt hostility.\n\n# Domain (D)\nThe conversation you are analyzing occurs in one of these two domains:\n* Product clarification: questions about how to use banking products (DBS digibank app, online banking, card features, loan products, etc.)\n* Transactional support: disputes, refunds, card issues, fund transfers, billing, account issues, fraud reports\n\n# Output:\nBased on this severity scale: \n| Rating | Severity | Description |\n|--------|----------|-------------|\n| 1 | Informational | General question, no issue \u2014 just asking how something works |\n| 2 | Low | Minor inconvenience, customer can self-resolve with guidance |\n| 3 | Moderate-Low | Feature not working as expected, workaround available |\n| 4 | Moderate | Service disruption or failed transaction, customer is blocked but patient |\n| 5 | Moderate-High | Financial impact (dispute needed, wrong charge), customer showing frustration |\n| 6 | High | Repeated failures or unresolved issue across multiple contacts, customer is upset |\n| 7 | Critical | Account security, fraud, unauthorized transactions, or large dispute \u2014 requires escalation |\n| 8 | Emergency | Active fraud in progress, data breach, legal threat, or complete service outage affecting the customer |\n\nOutput json object ONLY of the following form:\n{\n  \"severity\": number,\n  \"reason\": \"justification for the severity\"\n}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -2448,
+        32
+      ],
+      "id": "f67605f7-687e-47f1-b31f-00637949954b",
+      "name": "Escalation manager"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n\t\"severity\": 1,\n    \"justification\": \"Why is this severity rating given\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -2304,
+        256
+      ],
+      "id": "00bfb4a5-409d-4c53-a7f5-95df24a204a8",
+      "name": "Structured Output Parser1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "2e6fb98f-9376-4a10-a0c0-6ebb908ce492",
+              "leftValue": "={{ $node['Escalation manager'].data.output.severity }}",
+              "rightValue": 6,
+              "operator": {
+                "type": "number",
+                "operation": "gte"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -1568,
+        32
+      ],
+      "id": "022cd8dc-1a51-4934-8156-f76728810361",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7cd649df-c976-477d-bc7e-27d907821713",
+              "name": "type",
+              "value": "escalating",
+              "type": "string"
+            },
+            {
+              "id": "a3e5bae3-7b55-4a1f-91b8-3d04b1e5491e",
+              "name": "severity",
+              "value": "={{ $json.output.severity }}",
+              "type": "number"
+            },
+            {
+              "id": "8eaddda6-99da-45af-8cbc-96d9252d1bfe",
+              "name": "justification",
+              "value": "={{ $json.output.justification }}",
+              "type": "string"
+            },
+            {
+              "id": "3d535fdf-9957-48a9-b642-532313237ef6",
+              "name": "context",
+              "value": "={{ $json.output.context }}",
+              "type": "string"
+            },
+            {
+              "id": "741e265e-8229-42c0-bfc5-39124c9ed05d",
+              "name": "output",
+              "value": "=ESCALATING:  {{ $json.output.justification }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        672,
+        -160
+      ],
+      "id": "604b842b-068b-4c39-adc2-acedb6515ad8",
+      "name": "Escalate"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Case severity: {{ $node['Escalation manager'].data.output.severity }}\nSeverity justification: {{ $node['Escalation manager'].data.output.justification }}\nMessage history: {{ $node['Transform History'].data.history }}",
+        "hasOutputParser": true,
+        "options": {
+          "systemMessage": "You are an escalation agent. You should summarize the chat history and collect important information relevant to the case to provide context to a human agent taking over the case. your output must a json of this format:\n\n{ \"severity\": number, \"justification\": \"justification for escalating\", \"context\": \"context extracted from the chat\" } "
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        -688,
+        -160
+      ],
+      "id": "1e42b847-1852-4f0a-b2f5-278f219c89cf",
+      "name": "Escalation Agent"
+    },
+    {
+      "parameters": {
+        "content": "# Input Preprocessing",
+        "height": 592,
+        "width": 736
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -3232,
+        -160
+      ],
+      "typeVersion": 1,
+      "id": "2f8bebef-7bb1-4d44-b3bd-8034b33855b0",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "# Output",
+        "height": 1056,
+        "width": 640
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        592,
+        -288
+      ],
+      "typeVersion": 1,
+      "id": "3b24a79c-e062-40d8-813a-12e1d927afc2",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryManager",
+      "typeVersion": 1.1,
+      "position": [
+        -2128,
+        32
+      ],
+      "id": "d2e39f3b-ea43-4c2b-8e0b-7cbe6b03343a",
+      "name": "Read Chat"
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "messages": {
+          "messageValues": [
+            {
+              "type": "ai",
+              "message": "={{ $node['Capture Draft'].data.currentDraft }}"
+            }
+          ]
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryManager",
+      "typeVersion": 1.1,
+      "position": [
+        320,
+        32
+      ],
+      "id": "2e7e2bdc-f1b7-4744-b9e7-8ef649f484c5",
+      "name": "Insert memory"
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "messages": {
+          "messageValues": [
+            {
+              "type": "user",
+              "message": "={{ $json.originalQuery }}"
+            }
+          ]
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.memoryManager",
+      "typeVersion": 1.1,
+      "position": [
+        -2768,
+        32
+      ],
+      "id": "bc111d0d-a428-4106-9d09-87623f7ea267",
+      "name": "Chat Memory Manager"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "44223402-b819-438d-9f0f-927ade445dad",
+              "name": "history",
+              "value": "={{ $json.messages.map(item => (item.human ? \" human: \" + item.human: \"\") + (item.ai ? \" AI: \" + item.ai : \"\")) }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -1776,
+        32
+      ],
+      "id": "6507a908-805e-456d-8f86-059ac4c2ceb9",
+      "name": "Transform History"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n\t\"severity\": 1,\n    \"justification\": \"Justification for escalation\",\n    \"context\": \"context of the chat\"\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        -544,
+        224
+      ],
+      "id": "5dc33361-1e63-43b6-a684-88e325c9c6d4",
+      "name": "Structured Output Parser2"
+    },
+    {
+      "parameters": {
+        "path": "22774f72-0026-4238-a555-e1194b443412",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -3200,
+        240
+      ],
+      "id": "229169cc-ce4c-48fb-be91-7dba94182e81",
+      "name": "Webhook",
+      "webhookId": "22774f72-0026-4238-a555-e1194b443412"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        960,
+        32
+      ],
+      "id": "5de8b52b-58f6-4a5d-aea5-389209475211",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "model": "qwen3.5:397b",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        -688,
+        672
+      ],
+      "id": "246e31e5-7ed8-4b8b-8ce6-40af5964d20b",
+      "name": "Ollama Chat Model",
+      "credentials": {
+        "ollamaApi": {
+          "id": "2oLz7stj9MSKN0EK",
+          "name": "Ollama account 2"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "input": {
+      "main": [
+        [
+          {
+            "node": "Initialize State",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Is Approved?": {
+      "main": [
+        [
+          {
+            "node": "Insert memory",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Under Loop Limit?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Under Loop Limit?": {
+      "main": [
+        [
+          {
+            "node": "Loop Back",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Report error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Back": {
+      "main": [
+        [
+          {
+            "node": "Customer Service Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Initialize State": {
+      "main": [
+        [
+          {
+            "node": "Chat Memory Manager",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "Read Chat",
+            "type": "ai_memory",
+            "index": 0
+          },
+          {
+            "node": "Insert memory",
+            "type": "ai_memory",
+            "index": 0
+          },
+          {
+            "node": "Chat Memory Manager",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Qdrant Vector Store": {
+      "ai_tool": [
+        [
+          {
+            "node": "Auditor",
+            "type": "ai_tool",
+            "index": 0
+          },
+          {
+            "node": "Customer Service Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Ollama": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Qdrant Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Auditor",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auditor": {
+      "main": [
+        [
+          {
+            "node": "Capture Auditor response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Capture Auditor response": {
+      "main": [
+        [
+          {
+            "node": "Is Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Customer Service Agent": {
+      "main": [
+        [
+          {
+            "node": "Output Parser because n8n sucks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Capture Draft": {
+      "main": [
+        [
+          {
+            "node": "Auditor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Structured Output Parser",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Output Parser because n8n sucks",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Service Agent output parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Output Parser because n8n sucks",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Output Parser because n8n sucks": {
+      "main": [
+        [
+          {
+            "node": "Capture Draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser1": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Escalation manager",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Escalation manager": {
+      "main": [
+        [
+          {
+            "node": "Read Chat",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Escalation Agent",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Customer Service Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Escalation Agent": {
+      "main": [
+        [
+          {
+            "node": "Escalate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read Chat": {
+      "main": [
+        [
+          {
+            "node": "Transform History",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Insert memory": {
+      "main": [
+        [
+          {
+            "node": "Get Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Chat Memory Manager": {
+      "main": [
+        [
+          {
+            "node": "Escalation manager",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transform History": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser2": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Escalation Agent",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Initialize State",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Response": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Escalate": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Report error": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Auditor",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Customer Service Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Escalation manager",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Escalation Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "22da3f4d-60dd-4431-8a26-e223572852c2",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "558d88703fb65b2d0e44613bc35916258b0f0bf983c5d4730c00c424b77ca36a"
+  },
+  "id": "7ZXwt0nLspnVGX4H",
+  "tags": [
+    {
+      "updatedAt": "2026-03-24T11:08:53.519Z",
+      "createdAt": "2026-03-24T11:08:53.519Z",
+      "id": "ho0sIbpXIRDz5sLi",
+      "name": "RAG"
+    },
+    {
+      "updatedAt": "2026-03-24T15:31:30.149Z",
+      "createdAt": "2026-03-24T15:31:30.149Z",
+      "id": "wqZr3v5lT9U42vGg",
+      "name": "Agent"
+    }
+  ]
+}
