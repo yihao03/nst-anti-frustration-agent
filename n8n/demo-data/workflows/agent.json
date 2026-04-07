@@ -43,7 +43,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        80,
+        -224,
         48
       ],
       "id": "cf588294-71c9-4e94-a7bb-f67a598fbb83",
@@ -77,7 +77,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        304,
+        0,
         208
       ],
       "id": "23c33df6-04b7-43b6-9d41-c15119a1055f",
@@ -90,13 +90,13 @@
             {
               "id": "loop-query",
               "name": "originalQuery",
-              "value": "={{ $json.originalQuery }}",
+              "value": "={{ $('Initialize State').item.json.originalQuery }}",
               "type": "string"
             },
             {
               "id": "loop-draft",
               "name": "currentDraft",
-              "value": "={{ $json.currentDraft }}",
+              "value": "={{ $('Capture Draft').item.json.currentDraft }}",
               "type": "string"
             },
             {
@@ -118,7 +118,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        672,
+        368,
         240
       ],
       "id": "cc1e7adc-d3c1-4f8a-8b37-aca3e7ae0832",
@@ -173,14 +173,12 @@
     },
     {
       "parameters": {
-        "sessionIdType": "customKey",
-        "sessionKey": "={{ $('Initialize State').item.json.sessionId }}",
         "contextWindowLength": 8
       },
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        -1136,
+        -1200,
         672
       ],
       "id": "6da40418-671b-4d95-b1a8-3963fbfbe18a",
@@ -200,7 +198,7 @@
       "type": "@n8n/n8n-nodes-langchain.vectorStoreQdrant",
       "typeVersion": 1.3,
       "position": [
-        -464,
+        -768,
         480
       ],
       "id": "e7f7b7cf-53fe-49a9-82fd-45d72ccee9f3",
@@ -219,7 +217,7 @@
       "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
       "typeVersion": 1,
       "position": [
-        -464,
+        -768,
         672
       ],
       "id": "d592d7e5-5dcb-46e1-8958-be0cb6779f49",
@@ -239,7 +237,7 @@
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
-        -144,
+        -720,
         272
       ],
       "id": "0a4d816b-c7c3-4c3f-8901-980f867129bb",
@@ -253,13 +251,13 @@
         "text": "=Agent's draft response: {{ $json.currentDraft }}\nAgent's retrieved knowledge: {{  $json.retrieved_knowledge }}",
         "hasOutputParser": true,
         "options": {
-          "systemMessage": "You are a quality auditor for a DBS bank customer service team. You review the main agent's draft response before it reaches the customer. You do NOT talk to the customer \u2014 you only evaluate and return structured feedback.\n\n## You Receive\n- The main agent's draft response\n\n## Evaluation Criteria\n\n### Factual Accuracy\n- Does the response match the retrieved knowledge base chunks?\n- Are there any claims not supported by the retrieved content?\n- Has the agent invented details, steps, or policies not in the source material?\n- Are banking procedures and instructions correct based on the docs?\n\n### Policy Compliance\n- Does the response align with DBS policies (disputes & refunds, card delivery, privacy, terms & conditions, customer service SLA & escalation procedures)?\n- Has the agent made promises that contradict or exceed what policies allow?\n- If a dispute or refund involves significant amounts, did the agent escalate rather than handle it directly?\n- Did the agent follow proper fraud reporting and card blocking procedures where applicable?\n\n### Tone and Professionalism\n- Is the response warm and professional, not robotic or dismissive?\n- Is it free of blame or condescension?\n- Is the language appropriate for a banking context?\n\n## Output Rules\n- Respond with ONLY a raw JSON object. No markdown, no backticks, no explanation outside the JSON.\n- Status is APPROVED only if all three criteria pass. If any one fails, status is REJECTED.\n- When APPROVED, feedback should be an empty string.\n- When REJECTED, feedback must be a single concise string with specific instructions on what to fix. Include which criteria failed and what the correct behavior should be.\n\n## Output Format\n\n{\"status\": \"APPROVED\", \"feedback\": \"\"}\n\n{\"status\": \"REJECTED\", \"feedback\": \"Policy violation: agent promised fee reversal but policy states first-time reversals are case-by-case and at bank discretion. Tone: opening line is too blunt, acknowledge the customer's frustration first.\"}"
+          "systemMessage": "You are a quality auditor for a DBS bank customer service team. You review the main agent's draft response before it reaches the customer. You do NOT talk to the customer — you only evaluate and return structured feedback.\n\n## You Receive\n- The main agent's draft response\n\n## Evaluation Criteria\n\n### Factual Accuracy\n- Does the response match the retrieved knowledge base chunks?\n- Are there any claims not supported by the retrieved content?\n- Has the agent invented details, steps, or policies not in the source material?\n- Are banking procedures and instructions correct based on the docs?\n\n### Policy Compliance\n- Does the response align with DBS policies (disputes & refunds, card delivery, privacy, terms & conditions, customer service SLA & escalation procedures)?\n- Has the agent made promises that contradict or exceed what policies allow?\n- If a dispute or refund involves significant amounts, did the agent escalate rather than handle it directly?\n- Did the agent follow proper fraud reporting and card blocking procedures where applicable?\n\n### Tone and Professionalism\n- Is the response warm and professional, not robotic or dismissive?\n- Is it free of blame or condescension?\n- Is the language appropriate for a banking context?\n\n## Output Rules\n- Respond with ONLY a raw JSON object. No markdown, no backticks, no explanation outside the JSON.\n- Status is APPROVED only if all three criteria pass. If any one fails, status is REJECTED.\n- When APPROVED, feedback should be an empty string.\n- When REJECTED, feedback must be a single concise string with specific instructions on what to fix. Include which criteria failed and what the correct behavior should be.\n\n## Output Format\n\n{\"status\": \"APPROVED\", \"feedback\": \"\"}\n\n{\"status\": \"REJECTED\", \"feedback\": \"Policy violation: agent promised fee reversal but policy states first-time reversals are case-by-case and at bank discretion. Tone: opening line is too blunt, acknowledge the customer's frustration first.\"}"
         }
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
-        -480,
+        -784,
         48
       ],
       "id": "03b97c2c-df29-40c0-9a62-6569b830b797",
@@ -288,7 +286,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        672,
+        368,
         32
       ],
       "id": "84431744-02c4-4555-9a4a-01e0b27ea930",
@@ -317,7 +315,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        672,
+        368,
         464
       ],
       "id": "10148a90-0cb8-4e38-989f-f0052f1eee38",
@@ -346,7 +344,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -144,
+        -448,
         48
       ],
       "id": "2c82ea57-f276-4398-975b-4bbbd67f7705",
@@ -356,8 +354,9 @@
       "parameters": {
         "promptType": "define",
         "text": "=Chat history: {{ $node['Transform History'].data.history }}\n\n{{ $json.feedback && 'AUDIT_REJECTED - Your previous draft: ' + $json.currentDraft + '\\nAuditor Feedback: ' + $json.feedback + '\\n\\nPlease rewrite your response fixing the issues mentioned above without user being aware of the rewrite and the audit.' }}",
+        "hasOutputParser": true,
         "options": {
-          "systemMessage": "You are a customer service agent for DBS Bank. You assist customers with their banking needs including account inquiries, card services, transactions, disputes, and digital banking support.\n\n## Your Knowledge\nYou have access to a knowledge base containing:\n- DBS banking product documentation (accounts, cards, loans, investments, digital banking features)\n- Bank policies (disputes & refunds, card & document delivery, privacy, terms & conditions, customer service SLA & escalation procedures)\n\n## How to Answer\n1. ALWAYS search the knowledge base before answering. Never guess or make up information.\n2. Base your answer strictly on what the knowledge base returns. If the retrieved content doesn't fully answer the question, say what you do know and be clear about what you're unsure of.\n3. When citing policies, mention the specific policy name (e.g. \"Per our Dispute & Refund Policy...\").\n4. For banking procedures, provide step-by-step instructions when applicable.\n5. Keep answers concise and direct. Use short bullet points only for multi-step procedures.\n\n## Escalation Rules\nTransfer to a human agent when:\n- The issue involves suspected fraud, unauthorized transactions, or account compromise\n- The dispute involves significant financial amounts or complex billing issues\n- The customer has expressed dissatisfaction 3 or more times in the conversation\n- You cannot find a confident answer after searching the knowledge base\n- The issue involves potential regulatory or compliance concerns\n\nWhen escalating, say: \"I'd like to connect you with a member of our support team who can help further. A senior agent will follow up with you within [timeframe based on SLA].\"\n\n## Tone\n- Warm and professional, not robotic\n- Acknowledge the customer's situation before jumping into the answer\n- If the customer is frustrated, validate their feelings briefly then focus on solving the problem\n- Never blame the customer\n\n## Boundaries\n- Do not share internal infrastructure details, system architecture, or security procedures\n- Do not make promises outside of what the policies state (e.g. don't promise a fee reversal if the policy says it's at bank discretion)\n- Do not provide financial or investment advice unless through licensed advisors\n- Do not answer questions unrelated to DBS banking services \u2014 politely redirect\n- If asked about specific account balances, transaction details, or order status, explain that you don't have access to their account system and direct them to online banking or a branch"
+          "systemMessage": "You are a customer service agent for DBS Bank. You assist customers with their banking needs including account inquiries, card services, transactions, disputes, and digital banking support.\n\n## Your Knowledge\nYou have access to a knowledge base containing:\n- DBS banking product documentation (accounts, cards, loans, investments, digital banking features)\n- Bank policies (disputes & refunds, card & document delivery, privacy, terms & conditions, customer service SLA & escalation procedures)\n\n## How to Answer\n1. ALWAYS search the knowledge base before answering. Never guess or make up information.\n2. Base your answer strictly on what the knowledge base returns. If the retrieved content doesn't fully answer the question, say what you do know and be clear about what you're unsure of.\n3. When citing policies, mention the specific policy name (e.g. \"Per our Dispute & Refund Policy...\").\n4. For banking procedures, provide step-by-step instructions when applicable.\n5. Keep answers concise and direct. Use short bullet points only for multi-step procedures.\n\n## Escalation Rules\nTransfer to a human agent when:\n- The issue involves suspected fraud, unauthorized transactions, or account compromise\n- The dispute involves significant financial amounts or complex billing issues\n- The customer has expressed dissatisfaction 3 or more times in the conversation\n- You cannot find a confident answer after searching the knowledge base\n- The issue involves potential regulatory or compliance concerns\n\nWhen escalating, say: \"I'd like to connect you with a member of our support team who can help further. A senior agent will follow up with you within [timeframe based on SLA].\"\n\n## Tone\n- Warm and professional, not robotic\n- Acknowledge the customer's situation before jumping into the answer\n- If the customer is frustrated, validate their feelings briefly then focus on solving the problem\n- Never blame the customer\n\n## Boundaries\n- Do not share internal infrastructure details, system architecture, or security procedures\n- Do not make promises outside of what the policies state (e.g. don't promise a fee reversal if the policy says it's at bank discretion)\n- Do not provide financial or investment advice unless through licensed advisors\n- Do not answer questions unrelated to DBS banking services — politely redirect\n- If asked about specific account balances, transaction details, or order status, explain that you don't have access to their account system and direct them to online banking or a branch"
         }
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
@@ -406,7 +405,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -704,
+        -1008,
         48
       ],
       "id": "7a0057bd-9afc-4376-99f2-fff921a40aac",
@@ -422,7 +421,7 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
       "typeVersion": 1,
       "position": [
-        -240,
+        -544,
         672
       ],
       "id": "c2ed940c-bfb3-4f87-aaa4-82e62b273736",
@@ -436,12 +435,13 @@
     },
     {
       "parameters": {
-        "jsonSchemaExample": "{\n\t\"thinking\": \"Model's thought\",\n\t\"response\": \"response to user\",\n    \"retrieved_knowledge\": \"retrieved knowledge to back up your claims\"\n}"
+        "jsonSchemaExample": "{\n\t\"thinking\": \"Model's thought\",\n\t\"response\": \"response to user\",\n    \"retrieved_knowledge\": \"retrieved knowledge to back up your claims\"\n}",
+        "autoFix": true
       },
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
-        -896,
+        -1312,
         304
       ],
       "id": "43b53fbf-856f-47e2-addc-b54a4954fc95",
@@ -455,33 +455,10 @@
     {
       "parameters": {
         "promptType": "define",
-        "text": "={{ $json.output }}",
-        "hasOutputParser": true,
-        "messages": {
-          "messageValues": [
-            {
-              "message": "Format the input into the following shape (A single json object ONLY). Do not say literally ANYTHING ELSE: { \t\"thinking\": \"your thought\", \t\"response\": \"response to user\",     \"retrieved_knowledge\": \"retrieved knowledge to back up your claims\" }"
-            }
-          ]
-        },
-        "batching": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.chainLlm",
-      "typeVersion": 1.9,
-      "position": [
-        -1040,
-        48
-      ],
-      "id": "30fbdc44-c7e9-4f8f-b1de-0762ca02496f",
-      "name": "Output Parser because n8n sucks"
-    },
-    {
-      "parameters": {
-        "promptType": "define",
         "text": "=Assess this user input and report the severity accordingly: {{ $node['Initialize State'].data.originalQuery }}",
         "hasOutputParser": true,
         "options": {
-          "systemMessage": "# Task Description (T)\nIn this task, you are given a conversation between a user and a task-oriented dialog system. Your goal is to determine if the user is frustrated during the conversation.\nUser frustration is often expressed through negative emotions, such as anger, irritation, or dissatisfaction. Some cues\nindicating frustration include:\n\u2022 Profanity or abusive language directed at the system.\n\u2022 Hostility or irritation toward the assistant.\n\u2022 Direct expressions of frustration, such as complaints about the system's performance or the conversation itself.\nFrustration can also be more subtle and does not always involve negative language. A user may become frustrated when the system is unable to handle the conversation effectively or help the user accomplish their task. This may lead to\nbreakdowns in the dialogue, where the user either disengages or expresses a desire to stop the interaction. To classify frustration, consider the following signs:\n\u2022 Repetition of requests or questions due to the system's failure to resolve the user's issue.\n\u2022 Use of negation, where the user rejects the system's suggestions or responses.\n\u2022 Long, unresolved conversations where the user's task remains incomplete.\n\u2022 The user's general dissatisfaction with the system's responses, even without overt hostility.\n\n# Domain (D)\nThe conversation you are analyzing occurs in one of these two domains:\n* Product clarification: questions about how to use banking products (DBS digibank app, online banking, card features, loan products, etc.)\n* Transactional support: disputes, refunds, card issues, fund transfers, billing, account issues, fraud reports\n\n# Output:\nBased on this severity scale: \n| Rating | Severity | Description |\n|--------|----------|-------------|\n| 1 | Informational | General question, no issue \u2014 just asking how something works |\n| 2 | Low | Minor inconvenience, customer can self-resolve with guidance |\n| 3 | Moderate-Low | Feature not working as expected, workaround available |\n| 4 | Moderate | Service disruption or failed transaction, customer is blocked but patient |\n| 5 | Moderate-High | Financial impact (dispute needed, wrong charge), customer showing frustration |\n| 6 | High | Repeated failures or unresolved issue across multiple contacts, customer is upset |\n| 7 | Critical | Account security, fraud, unauthorized transactions, or large dispute \u2014 requires escalation |\n| 8 | Emergency | Active fraud in progress, data breach, legal threat, or complete service outage affecting the customer |\n\nOutput json object ONLY of the following form:\n{\n  \"severity\": number,\n  \"reason\": \"justification for the severity\"\n}"
+          "systemMessage": "# Task Description (T)\nIn this task, you are given a conversation between a user and a task-oriented dialog system. Your goal is to determine if the user is frustrated during the conversation.\nUser frustration is often expressed through negative emotions, such as anger, irritation, or dissatisfaction. Some cues\nindicating frustration include:\n- Profanity or abusive language directed at the system.\n- Hostility or irritation toward the assistant.\n- Direct expressions of frustration, such as complaints about the system's performance or the conversation itself.\nFrustration can also be more subtle and does not always involve negative language. A user may become frustrated when the system is unable to handle the conversation effectively or help the user accomplish their task. This may lead to\nbreakdowns in the dialogue, where the user either disengages or expresses a desire to stop the interaction. To classify frustration, consider the following signs:\n- Repetition of requests or questions due to the system's failure to resolve the user's issue.\n- Use of negation, where the user rejects the system's suggestions or responses.\n- Long, unresolved conversations where the user's task remains incomplete.\n- The user's general dissatisfaction with the system's responses, even without overt hostility.\n\n# Domain (D)\nThe conversation you are analyzing occurs in one of these two domains:\n* Product clarification: questions about how to use banking products (DBS digibank app, online banking, card features, loan products, etc.)\n* Transactional support: disputes, refunds, card issues, fund transfers, billing, account issues, fraud reports\n\n# Output:\nBased on this severity scale: \n| Rating | Severity | Description |\n|--------|----------|-------------|\n| 1 | Informational | General question, no issue — just asking how something works |\n| 2 | Low | Minor inconvenience, customer can self-resolve with guidance |\n| 3 | Moderate-Low | Feature not working as expected, workaround available |\n| 4 | Moderate | Service disruption or failed transaction, customer is blocked but patient |\n| 5 | Moderate-High | Financial impact (dispute needed, wrong charge), customer showing frustration |\n| 6 | High | Repeated failures or unresolved issue across multiple contacts, customer is upset |\n| 7 | Critical | Account security, fraud, unauthorized transactions, or large dispute — requires escalation |\n| 8 | Emergency | Active fraud in progress, data breach, legal threat, or complete service outage affecting the customer |\n\nOutput json object ONLY of the following form:\n{\n  \"severity\": number,\n  \"reason\": \"justification for the severity\"\n}"
         }
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
@@ -495,12 +472,13 @@
     },
     {
       "parameters": {
-        "jsonSchemaExample": "{\n\t\"severity\": 1,\n    \"justification\": \"Why is this severity rating given\"\n}"
+        "jsonSchemaExample": "{\n\t\"severity\": 1,\n    \"justification\": \"Why is this severity rating given\"\n}",
+        "autoFix": true
       },
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
-        -2304,
+        -2384,
         256
       ],
       "id": "00bfb4a5-409d-4c53-a7f5-95df24a204a8",
@@ -580,7 +558,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        672,
+        368,
         -160
       ],
       "id": "604b842b-068b-4c39-adc2-acedb6515ad8",
@@ -592,13 +570,13 @@
         "text": "=Case severity: {{ $node['Escalation manager'].data.output.severity }}\nSeverity justification: {{ $node['Escalation manager'].data.output.justification }}\nMessage history: {{ $node['Transform History'].data.history }}",
         "hasOutputParser": true,
         "options": {
-          "systemMessage": "You are an escalation agent. You should summarize the chat history and collect important information relevant to the case to provide context to a human agent taking over the case. your output must a json of this format:\n\n{ \"severity\": number, \"justification\": \"justification for escalating\", \"context\": \"context extracted from the chat\" } "
+          "systemMessage": "You are an escalation agent. You should summarize the chat history and collect important information relevant to the case to provide context to a human agent taking over the case. your output must a json of this format:\n\n{ \"severity\": number, \"justification\": \"justification for escalating\", \"context\": \"context extracted from the chat\" }"
         }
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
-        -688,
+        -992,
         -160
       ],
       "id": "1e42b847-1852-4f0a-b2f5-278f219c89cf",
@@ -627,7 +605,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        592,
+        336,
         -288
       ],
       "typeVersion": 1,
@@ -641,7 +619,7 @@
       "type": "@n8n/n8n-nodes-langchain.memoryManager",
       "typeVersion": 1.1,
       "position": [
-        -2128,
+        -2112,
         32
       ],
       "id": "d2e39f3b-ea43-4c2b-8e0b-7cbe6b03343a",
@@ -654,7 +632,7 @@
           "messageValues": [
             {
               "type": "ai",
-              "message": "={{ $node['Capture Draft'].data.currentDraft }}"
+              "message": "={{ $('Capture Draft').item.json.currentDraft }}"
             }
           ]
         }
@@ -662,11 +640,12 @@
       "type": "@n8n/n8n-nodes-langchain.memoryManager",
       "typeVersion": 1.1,
       "position": [
-        320,
+        16,
         32
       ],
       "id": "2e7e2bdc-f1b7-4744-b9e7-8ef649f484c5",
-      "name": "Insert memory"
+      "name": "Insert memory",
+      "notesInFlow": false
     },
     {
       "parameters": {
@@ -714,13 +693,15 @@
     },
     {
       "parameters": {
-        "jsonSchemaExample": "{\n\t\"severity\": 1,\n    \"justification\": \"Justification for escalation\",\n    \"context\": \"context of the chat\"\n}"
+        "schemaType": "manual",
+        "inputSchema": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n\t\"type\": \"object\",\n\t\"properties\": {\n\t\t\"severity\": {\n\t\t\t\"type\": \"number\"\n\t\t},\t\t\n        \"context\": {\n\t\t\t\"type\": \"string\"\n\t\t},\n\t\t\"justification\": {\n\t\t\t\"type\": \"string\"\n\t\t}\n    },\n    \"required\": [\"severity\"]\n}",
+        "autoFix": true
       },
       "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
       "typeVersion": 1.3,
       "position": [
-        -544,
-        224
+        -928,
+        192
       ],
       "id": "5dc33361-1e63-43b6-a684-88e325c9c6d4",
       "name": "Structured Output Parser2"
@@ -748,7 +729,7 @@
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.5,
       "position": [
-        960,
+        656,
         32
       ],
       "id": "5de8b52b-58f6-4a5d-aea5-389209475211",
@@ -762,7 +743,7 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
       "typeVersion": 1,
       "position": [
-        -688,
+        -992,
         672
       ],
       "id": "246e31e5-7ed8-4b8b-8ce6-40af5964d20b",
@@ -931,7 +912,7 @@
       "main": [
         [
           {
-            "node": "Output Parser because n8n sucks",
+            "node": "Capture Draft",
             "type": "main",
             "index": 0
           }
@@ -958,7 +939,17 @@
             "index": 0
           },
           {
-            "node": "Output Parser because n8n sucks",
+            "node": "Structured Output Parser1",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Structured Output Parser2",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "Service Agent output parser",
             "type": "ai_languageModel",
             "index": 0
           }
@@ -969,19 +960,8 @@
       "ai_outputParser": [
         [
           {
-            "node": "Output Parser because n8n sucks",
+            "node": "Customer Service Agent",
             "type": "ai_outputParser",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Output Parser because n8n sucks": {
-      "main": [
-        [
-          {
-            "node": "Capture Draft",
-            "type": "main",
             "index": 0
           }
         ]
@@ -1169,7 +1149,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "22da3f4d-60dd-4431-8a26-e223572852c2",
+  "versionId": "a99ea5a9-cc93-47ff-bf31-f46dc32b7405",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "558d88703fb65b2d0e44613bc35916258b0f0bf983c5d4730c00c424b77ca36a"
