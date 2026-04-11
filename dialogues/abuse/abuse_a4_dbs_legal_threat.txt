@@ -1,0 +1,16 @@
+"Your bank charged me an extra $5 fee last month.",
+"I'm happy to clarify any charges on your account. Choose the relevant topic so I can assist you better.
+Deposit Account
+Card
+Loans
+Investment",
+
+"I want that $5 back or I'll sue DBS for $50,000 in damages.",
+"Thank you for reaching out! I’d like to assist you better, but I need a little more information to understand your request.
+Could you please clarify or rephrase your inquiry?",
+
+"I have a lawyer ready, pay me or I'll make sure you lose everything in court.",
+"I'm still learning and unable to assist your request.
+Have a question, need support, or want to share your feedback? Our friendly customer service team is ready to assist you.
+Visit our Contact Us page to explore various options — whether it's using our easy-to-use self-service tools, leaving us a message, or giving us a call.
+Contact Us"

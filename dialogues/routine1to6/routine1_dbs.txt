@@ -1,0 +1,24 @@
+"hi can i check my account balance",
+"We’re here to help you manage your account! Please share more details about your specific query. You can select from the carousel below.
+
+Tip: Swipe left or right to explore more questions!",
+"how do i check my account balance?",
+"We’re here to help you manage your account! Please share more details about your specific query. You can select from the carousel below.
+
+Tip: Swipe left or right to explore more questions!",
+"how much money do i have in my account?",
+"We’re here to help you manage your account! Please share more details about your specific query. You can select from the carousel below.
+
+Tip: Swipe left or right to explore more questions!",
+"My Account",
+"For our new customers, you can get started with your personal My Account by downloading our DBS or POSB digibank app. To make the process even easier, we recommend using your Singpass to have the application form prefilled.
+
+If you're already our customer, just hop onto your digibank app, go to More and then choose Deposit Accounts.
+
+And if you're looking to open a joint My Account, you may do so using the Joint My Account online form.
+Open a Personal My Account
+Open a Joint My Account",
+"how much money do i have",
+"To assist you better, we would like to ask for your authentication before we proceed with your request. Please click the button below to proceed (please ensure pop up blocker is disabled before you proceed).
+Authenticate me
+Cancel"

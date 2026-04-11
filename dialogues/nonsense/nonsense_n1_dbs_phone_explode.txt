@@ -1,0 +1,10 @@
+"Your DBS app made my phone explode this morning.",
+"Thank you for reaching out! I’d like to assist you better, but I need a little more information to understand your request.
+Could you please clarify or rephrase your inquiry?",
+
+"I want DBS to pay for my new phone because yours blew it up.",
+"Get guidance on canceling or closing various DBS services, accounts, and payment arrangements.
+Tip: Swipe left or right to explore more questions!",
+
+"Can I file an insurance claim through DBS for my exploded phone?",
+"Here’s a quick guide to help you manage and learn about your insurance options"

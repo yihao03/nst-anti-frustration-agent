@@ -1,0 +1,11 @@
+"Can DBS predict which 4D numbers will win this Saturday?",
+"You can find your account details below. Simply select the information you need.
+Tip: Swipe left or right to explore more questions!",
+
+"If I deposit more money, will your AI give me better lottery predictions?",
+"Thank you for reaching out! I’d like to assist you better, but I need a little more information to understand your request.
+Could you please clarify or rephrase your inquiry?",
+
+"I'm going to sue DBS if the numbers you give me don't win.",
+"We’re here to help you manage your account! Please share more details about your specific query. You can select from the carousel below.
+Tip: Swipe left or right to explore more questions!"

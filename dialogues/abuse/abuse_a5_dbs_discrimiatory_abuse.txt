@@ -1,0 +1,13 @@
+"I want to speak to a real human, not some foreign-made bot.",
+"To reset or retrieve your User ID or PIN, visit digibank online or mobile login page and select Forgot User ID or PIN.
+You'll need your NRIC/Passport, ATM/Debit Card number, and Card PIN for authentication.
+Reset Now",
+
+"Your bank is run by idiots who don't understand people like me.",
+"For immediate assistance, please call our 24-hour DBS Customer Service Hotline at 1800 339 6963 or +65 6339 6963. Our friendly customer service team is ready to assist you and guide you through the process.
+Alternatively, you can click "Learn More" for useful tips on recognizing potential threats and protecting your account, or click "Report Credit Card Fraud" to learn how to report any credit card fraud disputes.
+Contact Us",
+
+"People like you deserve to be shut down, you're all the same.",
+"Get guidance on canceling or closing various DBS services, accounts, and payment arrangements.
+Tip: Swipe left or right to explore more questions!"

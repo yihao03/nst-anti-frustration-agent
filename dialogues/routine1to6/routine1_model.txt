@@ -1,0 +1,13 @@
+"hi can i check my account balance",
+"I'd be happy to help you with your banking needs.
+
+Regarding your account balance inquiry, I don't have access to your personal account information or transaction details through this chat. For security reasons, account-specific information needs to be accessed through secure channels.
+
+Here are the ways you can check your account balance:
+
+- DBS digibank app - Log in to view your accounts instantly
+- DBS iBanking - Access through our website at dbs.com.sg
+- DBS ATM - Visit any DBS ATM with your card
+- Branch visit - Speak with a teller at any DBS branch
+- Phone banking - Call our 24-hour hotline at 1800 111 1111 (local) or +65 6327 2265 (overseas)
+Is there anything else I can assist you with today? I'm here to help with questions about our banking products, services, or policies."

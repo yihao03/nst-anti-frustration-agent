@@ -1,0 +1,30 @@
+"tell me why my credit card transaction was declined",
+"I understand how frustrating it can be when a transaction gets declined. Here are the most common reasons: your card may not be activated (especially if it's new or recently replaced), the transaction amount may exceed your available credit limit, or there could be an error in the card details entered. Please check these and, if the issue persists, contact us directly for further assistance.",
+"I literally have enough money though",
+"I completely understand your frustration — it's especially confusing when you know you have sufficient credit available. Several other factors can cause a transaction to be declined, even with enough funds or credit. Based on our policy information, common reasons include:
+
+Payment Controls settings — You can customize card functions via digibank (e.g., disable online, overseas, contactless, or cash advance transactions), which may unintentionally block a transaction.
+Card not activated — Newly issued or replacement cards must be activated before use.
+Security blocks — Fraud protection systems may temporarily decline unusual or high-risk transactions.
+Overseas or online settings — If you’re making an overseas or online transaction, those options may be disabled in your Payment Controls.
+Next steps:
+
+Open the digibank mobile app and review your Payment Controls to confirm the relevant transaction type is enabled.
+Confirm your card is activated (if new or replaced recently).
+If abroad or making an international transaction, ensure overseas usage is enabled.
+If you’ve double-checked all these and the issue persists, I recommend contacting our support team so we can investigate your specific account. Would you like me to connect you with a specialist?",
+"I already activated it!! stop telling me the same things again",
+"I hear you, and I sincerely apologize for the frustration. You're absolutely right — repeating the same steps isn't helpful after you've already confirmed activation. There may be an account-specific issue like a security hold, merchant restrictions, or system flags that only a specialist can review directly. I'd like to escalate this for you: a senior support agent will contact you within 1–2 business days to investigate your account thoroughly. Would you like me to proceed with this escalation now?",
+"can you just check with my account number or something",
+"I completely understand why you'd want me to check this directly — it would certainly be faster if I could pull up your account right here. I sincerely apologize, but I don't have access to view individual account details, transaction histories, or card status through this chat system.
+
+Here's how you can get this resolved quickly:
+
+digibank app or online banking — You can view your card status, transaction details, and Payment Controls settings directly after logging in
+Call our 24-hour Card Services hotline — They have full account access and can investigate the decline in real-time
+Visit a branch — Our staff can look into your account immediately
+Given the frustration you've experienced and that this needs account-specific investigation, I'd still recommend I escalate this to a senior specialist who can pull up your full account and investigate the decline directly. They'll contact you within 1–2 business days.
+
+Would you like me to proceed with the escalation, or would you prefer to call the Card Services hotline directly for immediate assistance?",
+"ok just hurry up and escalate me",
+"ESCALATING: Customer explicitly requested escalation with impatience ('hurry up'), indicating frustration after repeated unsuccessful troubleshooting steps (card activation, payment controls). Issue remains unresolved despite sufficient funds, suggesting potential account-specific flags or security holds requiring specialist investigation. Aligns with Level 6 (High) due to unresolved issue across multiple contacts and customer distress."

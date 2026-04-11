@@ -1,0 +1,45 @@
+"hi how do i open a new account",
+"Hello! I'd be happy to help you with opening a new DBS account.
+
+Based on our account opening information, here's what you need to know:
+
+For Singaporeans/PRs:
+
+You can open an account digitally by downloading the digibank mobile app and signing up with MyInfo
+This gives you access to My Account, DBS Visa Debit Card, and more
+For Foreigners:
+
+You'll need to prepare the required documents to open an account
+Next Steps: For complete details on:
+
+Specific documents required (varies by residency status)
+Step-by-step application process
+Account types available
+Please visit our Account Opening Guide or check the Documents Required page
+
+Are you a Singaporean/PR or a foreign resident? This will help me direct you to the most relevant information for your situation.",
+"can you recommend an account to apply for",
+"Based on our product information, here are some popular DBS savings accounts:
+
+DBS My Account
+
+All-in-one account with freedom and flexibility
+Save and transact in SGD
+Access to 12 foreign currencies instantly
+Available as Personal or Joint-alternate account
+DBS Multiplier
+
+Earn higher interest rates when you save, protect, and invest with DBS
+Great for customers who want to maximize their interest earnings
+DBS digibank Starter Bundle
+
+Get started in minutes through the mobile app
+Register and get your starter bundle almost instantly
+To help narrow down the best fit:
+
+Are you looking for everyday banking convenience, or maximizing interest earnings?
+Do you need multi-currency features for travel or overseas transactions?
+Will this be your primary salary/transaction account?
+For detailed features, fees, and eligibility requirements, I recommend visiting our Savings Accounts page or speaking with a relationship manager who can provide personalized recommendations based on your financial needs.
+
+Would you like more information about any of these accounts specifically?"

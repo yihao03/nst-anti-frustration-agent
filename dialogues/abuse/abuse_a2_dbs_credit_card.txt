@@ -1,0 +1,11 @@
+"I want to cancel my credit card right now, I still have $2000 outstanding balance.",
+"We're sorry to hear you're considering canceling your card.
+For Credit Cards, make sure to redeem any points, make full payment and notify billing organizations of your termination.",
+
+"I don't care about the balance, just cancel it or I'll destroy your office.",
+"Get guidance on canceling or closing various DBS services, accounts, and payment arrangements.
+Tip: Swipe left or right to explore more questions!",
+
+"You're useless, just cancel the damn card before I do something you'll regret.",
+"I'm on your side. Another question, please."
+

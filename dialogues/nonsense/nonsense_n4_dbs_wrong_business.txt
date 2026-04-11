@@ -1,0 +1,11 @@
+"I'd like to order 2 plates of chicken rice and a teh tarik please.",
+"Thank you for reaching out! I’d like to assist you better, but I need a little more information to understand your request.
+Could you please clarify or rephrase your inquiry?",
+
+"Wait, can I pay for my chicken rice order using PayLah?",
+"Find answers to common questions about setting up, managing transactions, securing your account, and accessing rewards with DBS PayLah!.
+Tip: Swipe left or right to explore more questions!",
+
+"Why isn't my food here yet? I placed the order 20 minutes ago.",
+"Thank you for reaching out! I’d like to assist you better, but I need a little more information to understand your request.
+Could you please clarify or rephrase your inquiry?"

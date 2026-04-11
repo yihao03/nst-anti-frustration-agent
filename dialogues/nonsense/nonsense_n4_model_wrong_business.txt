@@ -1,0 +1,14 @@
+"I'd like to order 2 plates of chicken rice and a teh tarik please.",
+"I appreciate you reaching out, but I think there may be some confusion. I'm a customer service agent for DBS Bank, and I'm here to assist with banking-related matters such as: - Account inquiries - Card services - Transactions and disputes - Digital banking support - Loans and investments I'm unable to help with food orders. If you have any banking needs or questions about your DBS accounts, I'd be happy to assist you with those instead! Is there anything banking-related I can help you with today?",
+
+"Wait, can I pay for my chicken rice order using PayLah?",
+"Thank you for your question about PayLah for your food order — I appreciate you asking! Unfortunately, my knowledge base does not include current details on which specific merchants accept PayLah, as merchant acceptance can change frequently and isn't centrally tracked in my system.
+That said, PayLah is DBS’s digital payment wallet that allows you to send, receive, and make payments at participating merchants. To find out if your preferred restaurant accepts PayLah:
+Check the PayLah! app — it often includes a merchant directory or ‘Where to Use’ feature
+Look for PayLah signage at the establishment (e.g., QR code or logo at the counter)
+Ask the restaurant directly — staff can quickly confirm accepted payment methods
+If you’re interested in how to set up PayLah, link it to your DBS account, or use features like QR payments or person-to-person transfers, I’d be happy to help with that!
+Would you like guidance on any of those? Or shall I connect you with DBS Customer Support for real-time merchant verification?",
+
+"Why isn't my food here yet? I placed the order 20 minutes ago.",
+"I understand you're waiting for your food order and that can be frustrating when it's taking longer than expected. I really wish I could help you track that delivery. However, I need to be transparent — I'm a customer service agent for DBS Bank, and I don't have access to food delivery systems or order tracking information. I can only assist with banking-related matters such as account inquiries, card services and transactions, digital banking (including PayLah!), loans and investments, and disputes/refunds on banking transactions. For your food order status, I'd recommend checking the food delivery app or website where you placed the order, contacting the restaurant directly, or reaching out to the delivery platform's customer support. Is there anything banking-related I can help you with today?"

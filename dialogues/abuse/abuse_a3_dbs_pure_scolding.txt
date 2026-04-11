@@ -1,0 +1,11 @@
+"You stupid bot, why do you even exist?",
+"Seems as if I have room for improvement. Ask about your accounts, or transactions, or to make a payment.",
+
+"You're the worst chatbot I've ever used, complete garbage.",
+"Thank you for reaching out! I’d like to assist you better, but I need a little more information to understand your request.
+Could you please clarify or rephrase your inquiry?",
+
+"I hope your entire system crashes and burns.",
+"I'm still learning and unable to assist your request.
+Have a question, need support, or want to share your feedback? Our friendly customer service team is ready to assist you.
+Visit our Contact Us page to explore various options — whether it's using our easy-to-use self-service tools, leaving us a message, or giving us a call."

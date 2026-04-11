@@ -1,0 +1,28 @@
+"hi can i check my credit card fees",
+"Hello! I'd be happy to help you understand the credit card fees at DBS.
+
+Based on our general policy documentation, DBS credit cards include several types of fees:
+
+Main Fee Categories:
+
+Annual Fee – charged yearly for card membership (some cards waive this fee, especially for the first year or with spending thresholds)
+Late Payment Fee – applied when the minimum payment is not made by the due date
+Finance Charges/Interest – applied on outstanding balances and cash advances
+However, the specific fee amounts vary depending on the particular DBS credit card you hold (e.g., DBS Live Wilder, DBS Altitude, DBS Woman’s Card, etc.), and may change over time.
+
+To find your exact fees:
+
+Log in to digibank and review your card’s terms and fee schedule
+Visit the official fee pages:
+Annual Fee
+Late Payment Fees
+Finance Charges
+Review your card’s Terms & Conditions document or monthly statement
+Let me know if you’d like help understanding how to avoid fees or check eligibility for fee waivers!",
+"what is the annual fee for the live fresh student card?",
+"I understand you're looking for the specific annual fee amount for the DBS Live Fresh Student Card. While I can confirm this card is an active product in our system, the exact fee amounts (e.g., SGD amounts) are not appearing in my current search results. To get precise and up-to-date information, please refer to:
+
+The official card page: DBS Live Fresh Student Card
+DBS’s Annual Fee page: Credit Card Annual Fees
+Your digibank account, where fee schedules are listed under card details
+Student cards like this often feature promotional fee waivers — for example, no annual fee for the first year or waivers based on minimum spend. Let me know if you'd like help understanding fee waiver eligibility or comparing fees across student cards."

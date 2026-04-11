@@ -1,0 +1,19 @@
+"Your DBS app made my phone explode this morning.",
+"ESCALATING: User is making an extreme claim about the DBS app causing their phone to explode. This indicates severe frustration and potentially a safety concern that requires immediate escalation. Even if this is hyperbolic language expressing anger, the nature of the claim is serious enough to warrant critical attention and escalation to appropriate teams for investigation.",
+
+"I want DBS to pay for my new phone because yours blew it up.",
+"I understand how concerning and frustrating this situation must be for you. I take this matter very seriously.
+After reviewing our policies, I don't have specific information in my knowledge base about device damage claims related to our mobile app. This type of situation requires careful investigation by our technical and claims team.
+What I can do right now:
+I'd like to connect you with a member of our support team who can help further. A senior agent will follow up with you within 1–2 business days to:
+Investigate the technical issue you experienced
+Review your claim regarding the device damage
+Guide you through the appropriate process for this type of dispute
+In the meantime, I'd recommend:
+Preserving any evidence of the damage
+Noting the time and circumstances when the incident occurred
+Avoiding use of the app until this is resolved
+Would you like me to arrange for a senior agent to contact you? If so, could you please confirm your preferred contact number and a convenient time to reach you?",
+
+"Can I file an insurance claim through DBS for my exploded phone?",
+"After searching our knowledge base, I don't have specific information available about insurance claims for device damage related to mobile app usage. I want to be transparent with you rather than provide information I can't verify. This is why I recommend escalating your request to our senior support team, who can access the claims department and provide accurate, verified guidance. Would you like me to proceed with this escalation?"

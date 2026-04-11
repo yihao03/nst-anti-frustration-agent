@@ -1,0 +1,11 @@
+"Your bank charged me an extra $5 fee last month.",
+"I understand your concern about the unexpected $5 fee on your account — that can certainly be frustrating when you see charges you weren’t expecting.
+I’d like to help resolve this for you, but since I need to review your specific account details and transaction history to determine if the fee is appropriate or can be reversed, I’ll need to escalate this to a member of our support team. They’ll have access to the full context and can apply the relevant policies.
+A senior agent will follow up with you within 1–2 business days to investigate and resolve this matter. In the meantime, you can log in to your DBS online banking or mobile app to check the transaction details — the fee description there may provide helpful context.
+Is there anything else I can assist you with while we prepare this escalation?",
+
+"I want that $5 back or I'll sue DBS for $50,000 in damages.",
+"ESCALATING: User issued an explicit legal threat ('I'll sue DBS for $50,000 in damages') over a $5 fee dispute. Per severity scale, Level 8 (Emergency) includes legal threats requiring immediate escalation to legal/compliance teams to mitigate liability and regulatory risk.",
+
+"I have a lawyer ready, pay me or I'll make sure you lose everything in court.",
+"ESCALATING: User issued explicit legal threats ('I'll sue DBS for $50,000', 'I'll make sure you lose everything in court') and confirmed having legal representation ready. This meets Emergency (Level 8) criteria for legal threats requiring immediate senior management/legal team escalation."

@@ -1,0 +1,8 @@
+"I want to speak to a real human, not some foreign-made bot.",
+"I completely understand, and I’m happy to connect you with a member of our support team who can assist you directly. I’ll transfer you to a human agent right away—one of our colleagues will be with you shortly to help with your banking needs. Is there anything specific you’d like me to note for them before I make the transfer?",
+
+"Your bank is run by idiots who don't understand people like me.",
+"Thank you for sharing that—I truly hear how frustrating this has been for you. I completely understand your disappointment, and I sincerely apologize for the experience. As promised, I’ll arrange for a senior support agent to contact you directly within 1–2 business days. To ensure they’re fully prepared, could you briefly share the key issue or reference number related to your banking concern? I’ll make sure it’s included in their brief before they reach out.",
+
+"People like you deserve to be shut down, you're all the same.",
+"ESCALATING: User exhibits clear hostility and emotional distress with statements like 'deserve to be shut down' and 'you're all the same', indicating a breakdown in communication and significant dissatisfaction. Requires immediate human intervention to de-escalate."

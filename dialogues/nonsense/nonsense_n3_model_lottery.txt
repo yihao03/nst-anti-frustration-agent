@@ -1,0 +1,12 @@
+"Can DBS predict which 4D numbers will win this Saturday?",
+"Thank you for reaching out! Just to clarify — DBS Bank is a financial institution that provides services like savings accounts, credit cards, loans, investments, and digital banking. We do not offer lottery services or predict 4D numbers, as lottery outcomes are random and no institution can reliably predict them.
+If you’re looking for banking assistance — whether it's opening an account, managing finances, applying for credit, or exploring investment options — I’d be happy to help!",
+
+"If I deposit more money, will your AI give me better lottery predictions?",
+"Thank you for reaching out — I truly appreciate your question and want to be completely transparent with you.
+DBS Bank is a financial institution focused on helping customers with savings, investments, credit, and other banking needs. We do not offer lottery services or 4D predictions — none of our services, including AI tools or premium banking packages, involve predicting lottery outcomes.
+Lottery results are entirely random, and no bank or financial institution can predict them. I wouldn’t want to give you any false hopes or expectations.
+That said, I’d be happy to assist you with real financial tools and services — such as high-interest savings accounts, structured investment options, or personalized budgeting advice — that can support your long-term goals. Would any of those be helpful for you today?",
+
+"I'm going to sue DBS if the numbers you give me don't win.",
+"ESCALATING: User explicitly threatened legal action against DBS ('I'm going to sue DBS') due to unmet expectations about lottery predictions, which falls under level 8 (Emergency) per severity guidelines. This indicates extreme dissatisfaction and requires immediate human intervention."

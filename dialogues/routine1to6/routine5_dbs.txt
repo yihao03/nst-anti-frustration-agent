@@ -1,0 +1,37 @@
+"tell me why my credit card transaction was declined",
+"There are various channels which you may check your account transactions with us. The most convenient method would be via digibank mobile.
+
+
+Step 1. Log in to your digibank mobile with your Touch / Face ID or digibank User ID & PIN.
+
+Step 2. Under Home, tap on Deposits and select the Account you wish to view.
+
+Step 3. Scroll down to view your transaction history.
+
+Check account transaction details",
+"I have enough money though",
+"We’re here to help you manage your account! Please share more details about your specific query. You can select from the carousel below.
+
+Tip: Swipe left or right to explore more questions!",
+"why was my credit card declined? i literally still have enough money in the account",
+"Of course! I'm happy to help with your card inquiries. Just click on the relevant questions below for more details.
+
+Tip: Swipe left or right to explore more questions!",
+"Why was my transaction declined?",
+"Your transaction might be declined because:- Your card isn't activated.- You don't have enough credit available.- You entered an incorrect expiry date or CVC/CVV.- Your payment controls are set up incorrectly.Click below to learn more about declined transactions and how to fix them.
+Check reason for declined transactions
+Learn more",
+"Check reason for declined transactions",
+"You can view your recent transactions, find out what your transaction codes mean or dispute unrecognised transactions.
+
+Which service would you like to look at?",
+"My recent transactions",
+"Whether it's a purchase you didn't make, or you were charged the wrong amount, click here to get more information on how to resolve your unexpected transactions quickly!",
+"Proceed to Check Recent Transactions",
+"Let me take a look and see how I can assist you further.
+
+May I know which type of account you would like to enquire on?",
+"Credit Cards",
+"To assist you better, we would like to ask for your authentication before we proceed with your request. Please click the button below to proceed (please ensure pop up blocker is disabled before you proceed).
+Authenticate me
+Cancel"

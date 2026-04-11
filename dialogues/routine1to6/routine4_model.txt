@@ -1,0 +1,73 @@
+"can you do a credit card chargeback i want my money back!",
+"I understand you're looking to get your money back through a credit card chargeback, and I can see this is important to you.
+
+After searching our knowledge base, I don't have access to the specific chargeback and dispute process details that would be needed to guide you properly through this. Credit card disputes can involve important policy considerations and timelines that require specialized handling.
+
+I'd like to connect you with a member of our support team who can help further. A senior agent will follow up with you within 1-2 business days.
+
+In the meantime, you may also:
+
+Check your credit card transaction details through DBS digibank or the mobile app
+Visit our Request for Waiver of Charges page for related information
+The specialist team will be able to review your specific transaction, explain the dispute process, and guide you through the necessary steps to request a chargeback.
+
+Is there anything else I can help you with while we arrange this follow-up?",
+"what exactly do i need to do to get my money back? the seller didn't even send me half of the things",
+"I understand how frustrating it must be to pay for items and not receive them — especially when this issue remains unresolved. Based on our Dispute & Refund Policy, here’s what applies to your case:
+
+Step 1: You must first contact the merchant directly to seek resolution. This is a required step before we process a chargeback.
+
+Step 2: If the merchant doesn’t resolve the issue, DBS can intervene. You can submit a chargeback request through our contact page. Please have your transaction details (date, amount, merchant name) and any communication with the merchant ready.
+
+Step 3: Your situation — partial or no delivery — falls under eligible disputes for service/ goods not received.
+
+To ensure your case is handled thoroughly and promptly, I’d like to connect you with a senior support agent. They’ll follow up within 1–2 business days to guide you personally through the process. Would you like me to arrange that for you?",
+"is there really no way to report this other than contacting an agent? I don't have time to sit at the phone",
+"I understand your frustration — you want a quick solution without having to wait on the phone. I searched our knowledge base for self-service dispute submission options, but unfortunately, the information I have access to doesn't include details about online chargeback submission forms or digital dispute processes.
+
+What I can confirm from our Dispute & Refund Policy is that:
+
+Contacting the merchant first is required
+DBS does handle disputes for non-delivery of goods/services
+Transaction details and merchant communication records are needed
+However, I want to be transparent with you — I cannot confirm whether there's a fully online submission option available without speaking to a specialist who has access to those specific systems.
+
+Given your situation and the urgency, I'd like to connect you with a member of our support team who can help further. A senior agent will follow up with you within 1-2 business days.
+
+They'll be able to:
+
+Confirm if there's an online dispute submission option you can use
+Walk you through the fastest way to file your chargeback
+Review your specific transaction and merchant details
+Would you like me to proceed with arranging this follow-up? I know your time is valuable, and the specialist will work to find the most convenient process for you.",
+"the link you sent me in the first message was to waive fees, but I want to report a transaction not waive a credit card fee !",
+"You're absolutely right — I apologize for the confusion. The link I shared earlier was for fee waivers, which is not what you need at all. That was my mistake, and I understand how frustrating that must be when you're trying to resolve a serious issue about undelivered goods.
+
+Let me be transparent with you: Based on our Dispute & Refund Policy, I can confirm that:
+
+You must contact the merchant first to seek resolution
+If unresolved, you can raise a chargeback request by getting in touch with us through our contact page
+Your situation (partial/non-delivery of goods) is an eligible dispute reason
+However, I don’t have confirmed information about whether there’s a fully online dispute submission form available without phone contact, and I cannot specify guaranteed response or escalation timeframes, as those are not documented in our current policy materials.
+
+I’d like to connect you with a member of our support team who can help further — they’ll have access to the most up-to-date dispute submission options and internal processes. They’ll review your transaction and guide you through the next steps.
+
+Would you like me to proceed with arranging this follow-up? I want to make sure you get the right help without any more confusion.",
+"can you just tell me how to dispute a transaction",
+"I completely understand your frustration — you've been trying to get clear answers about disputing a transaction, and I haven't been able to provide the specific process details you need. I apologize for that.
+
+After searching our knowledge base again, I need to be transparent with you: I don't have access to the detailed dispute/chargeback submission process in the materials available to me. The information I can find covers transaction viewing and payment controls, but not the actual dispute filing steps.
+
+Given that:
+
+This involves a credit card dispute (which requires specialized handling)
+You've already had to repeat your question multiple times
+I cannot provide the confident, specific guidance you deserve
+I'd like to connect you with a member of our support team who can help further. A senior agent will follow up with you within 1-2 business days.
+
+They will have access to:
+
+The complete dispute submission process (including any online options)
+Your specific transaction details
+The ability to walk you through each step without you having to wait on hold
+I know this isn't the quick answer you were hoping for, but I want to make sure you get accurate information from someone who can actually process your dispute. Would you like me to proceed with arranging this follow-up?"

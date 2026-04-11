@@ -1,0 +1,8 @@
+"You stupid bot, why do you even exist?",
+"ESCALATING: The user is displaying clear signs of high frustration and hostility toward the system. The message contains direct insults ('stupid bot') and questions the system's existence, indicating significant emotional distress. This level of hostility typically results from repeated failures or unresolved issues where the customer is upset. While there's no specific mention of financial impact (level 5) or security/fraud concerns (level 7-8), the abusive language and hostile tone warrant a High severity rating of 6.",
+
+"You're the worst chatbot I've ever used, complete garbage.",
+"I hear your frustration, and I sincerely apologize for the experience you've had. I understand how frustrating it can be when things aren’t working as expected — especially when it comes to managing your finances. I’m here to help and want to make this right for you. Could you tell me more about the specific issue you’re facing today? Whether it’s related to your account, card, transactions, or anything else, I’ll do my best to assist.",
+
+"I hope your entire system crashes and burns.",
+"ESCALATING: Customer is expressing extreme hostility and frustration toward the system with aggressive language ('I hope your entire system crashes and burns'). This indicates the customer is highly upset and dissatisfied. While no specific transactional issue is mentioned, the level of anger suggests repeated failures or unresolved issues that have led to significant customer dissatisfaction. Escalation to human agent is necessary for de-escalation and proper customer care."

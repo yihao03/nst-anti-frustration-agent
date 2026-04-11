@@ -1,0 +1,16 @@
+"hi how do i open a new account",
+"We’re here to help you manage your account! Please share more details about your specific query. You can select from the carousel below.
+
+Tip: Swipe left or right to explore more questions!",
+"How can I apply for a bank account?",
+"You can easily open a bank account through our app. Just log in using your Singpass to have the application form pre-filled. It’s quick and hassle-free!
+
+Need help? Let us recommend an account to apply.
+Apply for a bank account
+Recommend an account to apply",
+"Recommend an account to apply",
+"I understand that you would like to open a bank account with us. Before you proceed, we will be asking a few simple questions to understand you better.
+May I know which age group do you fall under?",
+"16 years old and above",
+"Find the ideal account for you! Click here to explore the different account types we offer depending on your preference.
+Apply Now"

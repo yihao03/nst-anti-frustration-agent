@@ -1,0 +1,47 @@
+"can you do a credit card chargeback i want my money back!",
+"Find quick answers to your questions about credit card fees, charges, and waivers right here!
+
+
+Tip: Swipe left or right to explore more questions!
+Learn more",
+"help me reverse a charge",
+"I'm happy to clarify any charges on your account. Choose the relevant topic so I can assist you better.
+Deposit Account
+Card
+Loans
+Investment",
+"Card",
+"Of course! I'm happy to help with your card inquiries. Just click on the relevant questions below for more details.
+
+Tip: Swipe left or right to explore more questions!",
+"how do I dispute a charge to my card",
+"For transactions that are unauthorised on your card, block and replace your card first. Report card fraud immediately through digibank app or call DBS hotline.
+Block and replace card
+Learn more
+Contact us",
+"I don't want to replace my card I just want to get my money back from the seller",
+"You can replace a lost, expired or damaged card via digibot.
+
+Alternatively, you can also replace your card via digibank mobile.
+Replace Now
+Replace via digibank mobile",
+"no, stop telling me how to replace the card! tell me how to get my money back from the seller",
+"You can replace a lost, expired or damaged card via digibot.
+
+Alternatively, you can also replace your card via digibank mobile.
+Replace Now
+Replace via digibank mobile",
+"oh my god can you just say how do i get money back from seller",
+"Simply login to digibank to access and view your statements or retail advices online at your convenience.
+View your eStatements and eAdvices
+Understanding your credit card statement",
+"how do i get a refund or undo the transaction",
+"Find answers to common transaction details on different products. Select the relevant product for more detailed information.
+
+
+Tip: Swipe left or right to explore more questions!",
+"How can I dispute an unauthorized transaction?",
+"See an unauthorized purchase or incorrect charge? Learn how to get it resolved.
+Resolve Unexpected Card Transactions
+Block and Replace card
+Report Scam"
